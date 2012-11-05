@@ -1,0 +1,54 @@
+<legend>About Clearer: CNS adverse effect burden calculator</legend>
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="static/bootstrap/js/bootstrap.min.js"></script>
+
+<p><a href="http://massgeneral.org/cedd"><img class="img-border" style="margin-left: 0px; margin-right: 12px; float: right;" src="../static/CEDD-final-CMYK.jpg" alt="CEDD logo" width="348" height="145" /></a></p>
+This tool sums frequency of specific adverse effects, or categories of adverse effects, across a list of medications.<br>
+The basic premise is that risk for CNS adverse effects is additive - e.g., two medications which both cause confusion, when used in combination, have a greater risk than either individually.
+In reality, the relationship between drugs is more complex: in some cases AE risk may be multiplicative, either because of the nature of the target or because of drug-drug interactions.
+Future versions of this tool may integrate PK data, or empirical data regarding drug pairs, for improved precision.
+Nonetheless, as a quick approximation of the total burden posed by a list of medications, the simplifying assumption of additivity is probably reasonable.
+
+<p>Disclaimer: This tool is not intended to diagnose, treat, cure, or prevent any disease.
+ <hr>
+For details about the MGH Psychiatry Center for Experimental Drugs and Diagnostics, see <br>
+<a href="http://massgeneral.org/cedd">massgeneral.org/cedd</a>
+<br><br>
+<legend>Notes</legend>
+<div class="accordion" id="accordion2">
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+General notes
+</a>
+</div>
+<div id="collapseOne" class="accordion-body collapse">
+<div class="accordion-inner">
+Enter a comma-separated list of FDA medications (either generic or brand names). Select specific adverse effects, or groups of AE's, to determine using the pulldown menu.
+The calculator then loops through each drug and tabulates the total adverse effect burden based on drug frequencies.
+</div>
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+Medication data source
+</a>
+</div>
+<div id="collapseTwo" class="accordion-body collapse">
+<div class="accordion-inner">
+The frequency-parsed adverse effect lists were downloaded from the SIDER site on 11/2/12.</div>
+</div>
+</div>
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+Future plans
+</a>
+</div>
+<div id="collapseThree" class="accordion-body collapse">
+<div class="accordion-inner">
+Integrating with empirical data drawn from EHR may allow more precise estimate of burden associated with medication pairs.
+</div>
+</div>
+</div>
+</div>

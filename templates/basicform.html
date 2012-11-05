@@ -1,0 +1,55 @@
+$def with (form)
+
+
+<div class="row">
+  <div class="span12">
+    <h1>Clearer: Estimate overall CNS burden of a list of FDA drugs</h1>
+    <p>To provide a rough estimate of overall cognitive load imposed by a list of prescription medications, based on frequency of adverse effects.</p>
+     <p>Disclaimer: This tool is not intended to diagnose, treat, cure, or prevent any disease.<br>
+     <p>Disclaimer #2: This tool is still in active development... it should work, sometimes. <br>
+    </div>
+</div>
+
+<div class="row">
+
+	<div class="span8 offset2">
+
+		<form name="main" method="post" class="form-horizontal"> 
+			$if not form.valid: <p class="error">Please correct the errors below:</p>
+
+  <legend>Drug list</legend>
+
+    <div class="control-group">
+      <label class="control-label" for="">Enter drugs using generic name</label>
+      <div class="controls">
+          $:form.Druglist.render()
+      </div>
+    </div>
+
+  <legend>Comparator group</legend>
+
+    <div class="control-group">
+      <label class="control-label" for="">Comparators</label>
+      <div class="controls">
+          $:form.Comparator.render()
+      </div>
+    </div>
+
+ <legend>Other options</legend>
+    <div class="control-group">
+      <label class="checkbox inline" for="">
+            $:form.Option_1.render()
+           Use frequency data</label>
+      <label class="checkbox inline" for="">
+            $:form.Option_2.render()
+           HCF</label>
+
+    <hr>
+
+<button type="submit" class="btn">Submit</button>
+    </div>
+    </form>
+
+
+</div>
+

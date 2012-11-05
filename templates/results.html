@@ -1,0 +1,162 @@
+$def with (matcheddrugx,cidlistx,listbydrugx,listbyaex,annotbydrugx,aescorex,drugscorex,aetotalx)
+
+<style>
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #eee;
+    shape-rendering: crispEdges;
+}
+ 
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+ 
+.loading {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+ 
+.circle {
+    fill: #222;
+}
+
+.bar.plusbad {
+  fill: rgba(240, 156, 156, .5);
+  }
+
+.bar.minusgood {
+  fill: rgba(156, 240, 156, .5);
+}
+</style>
+ 
+<h1>Clearer: Summarize drug-associated AE risks</h1>
+<br><h4>
+<legend>Drugs matched:</legend> 
+<h4>$:matcheddrugx</p>
+<legend>AE's by drug:</legend>
+<h4>$:listbydrugx</p>
+<legend>Drugs by AE: </legend>
+<h4>$:listbyaex</h4>
+<hr>
+<legend>Total burden score:</legend>
+$:aetotalx
+<hr>
+
+<select id="refpop" name="refpop">
+ <option value=0 selected>List by drug</option>
+ <option value=1>List by adverse effect</option>
+ <option value=2>Wind the frog</option>
+</select>
+
+<div id='roygraph2'></div>
+ 
+<script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
+
+<script type="text/javascript">
+
+var contributions = $:drugscorex;
+var data=[];
+var names = [];
+var keys= [];
+
+for (c in contributions) {
+  data.push(contributions[c]); 
+  names.push(c); 
+}
+
+var aescores=$:aescorex;
+var data_ae=[];
+var names_ae=[];
+
+for (c in aescores) {
+  data_ae.push(aescores[c]);
+  names_ae.push(c);
+}
+
+var margin={top:20, right:10, bottom: 10, left:10},
+  width=500-margin.left-margin.right,
+  height=300-margin.top-margin.bottom;
+  
+var x0=Math.max(-d3.min(data),d3.max(data));
+var x=d3.scale.linear()
+  .domain([-x0, x0])
+  .range([0,width])
+  .nice();
+var y2=d3.scale.ordinal()
+  .domain(d3.range(data.length))
+  .rangeRoundBands([0,height],.2);
+var svg=d3.select("#roygraph2").append("svg")
+  .attr("width",width+margin.left+margin.right)  
+  .attr("height",height+margin.top+margin.bottom)
+  .append("g")
+  .attr("transform","translate("+margin.left+","+margin.top+")");
+
+svg.selectAll(".bar")
+  .data(data)
+  .enter().append("rect")
+  .attr("fill","steelblue")
+  .attr("x",function(d,i) {return x(Math.min(0,d));})
+  .attr("y",function(d,i) {return y2(i); })
+  .attr("width",function(d,i) {return Math.abs(x(d)-x(0));})
+  .attr("height",2); 
+  
+svg.append("g")
+  .attr("class","x axis")
+  .call(d3.svg.axis().scale(x).orient("top"));
+
+svg.append("g")
+  .attr("class","y axis")
+  .append("line")
+   .attr("x1",x(0))
+   .attr("x2",x(0))
+   .attr("y1",0)
+   .attr("y2",height);
+
+svg.selectAll('text.contribution_names')
+  .data(names)
+  .enter()
+  .append('text')
+  .attr('class', 'contribution_names')
+  .attr("y", function(d, i) { return y2(i)+(y2.rangeBand()/2)+4; })
+  .attr("x", 20)
+  .text(function(d) { return d; });
+
+svg.selectAll("rect").
+         transition().duration(2000).delay(250)
+         .attr("class",function(d,i) {return d<0 ? "bar minusgood" : "bar plusbad";})
+         .attr("height",y2.rangeBand());
+
+// this turns on dropdown for graph
+
+var dropdown=d3.select("#refpop")
+var change=function() {
+ var source=dropdown.node().options[dropdown.node().selectedIndex].value;
+
+ if (source==0) {
+      svg.selectAll("bar")
+                  .data(data).transition()
+                  .attr("height",y2.rangeBand())
+         .attr("x",function(d,i) {return x(Math.min(0,d));})
+;
+      }
+
+if (source==1) {
+      svg.selectAll("bar").data(data_ae).transition()
+                  .attr("height",y2.rangeBand())
+         .attr("x",function(d,i) {return x(Math.min(0,d));});
+      }
+
+if (source==2) {
+      svg.selectAll("circle")
+         .transition().duration(800)
+         .attr("r", function (d) { return d[3]==-9 ? 3 : d[3]*3+2; });
+
+      }
+}
+
+dropdown.on("change",change);
+
+</script>   
+
