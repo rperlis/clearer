@@ -1,0 +1,323 @@
+PT_CODE	PT STR	HG CODE	HG STR	Category
+10053243	Polysubstance dependence	10037176	Psychiatric disorders NEC	2
+10039637	"Schizophrenia, catatonic type"	10039628	Schizophrenia and other psychotic disorders	2
+10039639	"Schizophrenia, paranoid type"	10039628	Schizophrenia and other psychotic disorders	2
+10022568	Intermittent explosive disorder	10021563	Impulse control disorders NEC	2
+10034158	Pathological gambling	10021563	Impulse control disorders NEC	2
+10002942	Apathy	10027946	Mood disorders and disturbances NEC	2
+10002942	Apathy	10027946	Mood disorders and disturbances NEC	2
+10027951	Mood swings	10027946	Mood disorders and disturbances NEC	2
+10027951	Mood swings	10027946	Mood disorders and disturbances NEC	2
+10041250	Social phobia	10002861	Anxiety disorders and symptoms	2
+10052793	Body dysmorphic disorder	10002861	Anxiety disorders and symptoms	2
+10034912	Phobia	10002861	Anxiety disorders and symptoms	2
+10001497	Agitation	10002861	Anxiety disorders and symptoms	2
+10001297	Adjustment disorder with depressed mood	10001302	Adjustment disorders (incl subtypes)	2
+10001298	Adjustment disorder with disturbance of conduct	10001302	Adjustment disorders (incl subtypes)	2
+10021403	Illusion	10013511	Disturbances in thinking and perception	2
+10037996	Reactive attachment disorder of infancy or early childhood	10037176	Psychiatric disorders NEC	2
+10039647	Schizophreniform disorder	10039628	Schizophrenia and other psychotic disorders	2
+10036316	Post-traumatic stress disorder	10002861	Anxiety disorders and symptoms	2
+10042464	Suicide attempt	10042460	Suicidal and self-injurious behaviours NEC	2
+10002368	Anger	10027946	Mood disorders and disturbances NEC	2
+10048909	Boredom	10027946	Mood disorders and disturbances NEC	2
+10053164	Alcohol withdrawal syndrome	10037176	Psychiatric disorders NEC	2
+10001639	Alcoholism	10037176	Psychiatric disorders NEC	2
+10001502	Agoraphobia	10002861	Anxiety disorders and symptoms	2
+10001502	Agoraphobia	10002861	Anxiety disorders and symptoms	2
+10009244	Claustrophobia	10002861	Anxiety disorders and symptoms	2
+10009244	Claustrophobia	10002861	Anxiety disorders and symptoms	2
+10002855	Anxiety	10002861	Anxiety disorders and symptoms	2
+10017062	Formication	10013511	Disturbances in thinking and perception	2
+10011469	Crying	10027946	Mood disorders and disturbances NEC	2
+10053317	Hydrophobia	10002861	Anxiety disorders and symptoms	2
+10029216	Nervousness	10002861	Anxiety disorders and symptoms	2
+10012378	Depression	10012375	Depressed mood disorders and disturbances	2
+10014643	Encopresis	10037176	Psychiatric disorders NEC	2
+10014928	Enuresis	10037176	Psychiatric disorders NEC	2
+10023461	Kleptomania	10021563	Impulse control disorders NEC	2
+10024264	Lethargy	10027946	Mood disorders and disturbances NEC	2
+10026749	Mania	10026753	Manic and bipolar mood disorders and disturbances	2
+10057342	Onychophagia	10021563	Impulse control disorders NEC	2
+10038743	Restlessness	10002861	Anxiety disorders and symptoms	2
+10037674	Pyromania	10021563	Impulse control disorders NEC	2
+10044629	Trichotillomania	10021563	Impulse control disorders NEC	2
+10013754	Drug withdrawal syndrome	10037176	Psychiatric disorders NEC	2
+10033664	Panic attack	10002861	Anxiety disorders and symptoms	2
+10001540	Akathisia	10002861	Anxiety disorders and symptoms	2
+10036182	Porphyria acute	10037176	Psychiatric disorders NEC	2
+10009207	Circumstantiality	10013511	Disturbances in thinking and perception	2
+10010297	Confabulation	10013511	Disturbances in thinking and perception	2
+10011652	Cushing's syndrome	10037176	Psychiatric disorders NEC	2
+10012411	Derailment	10013511	Disturbances in thinking and perception	2
+10054940	Dyslogia	10037176	Psychiatric disorders NEC	2
+10000605	Acrophobia	10002861	Anxiety disorders and symptoms	2
+10010219	Compulsions	10002861	Anxiety disorders and symptoms	2
+10013663	Drug dependence	10037176	Psychiatric disorders NEC	2
+10016777	Flight of ideas	10013511	Disturbances in thinking and perception	2
+10021402	Illogical thinking	10013511	Disturbances in thinking and perception	2
+10025429	Magical thinking	10013511	Disturbances in thinking and perception	2
+10034703	Perseveration	10013511	Disturbances in thinking and perception	2
+10059591	Cotard's syndrome	10013511	Disturbances in thinking and perception	2
+10011724	Cyclothymic disorder	10026753	Manic and bipolar mood disorders and disturbances	2
+10012241	Delusion of grandeur	10013511	Disturbances in thinking and perception	2
+10012177	Deja vu	10013511	Disturbances in thinking and perception	2
+10012258	Delusional perception	10013511	Disturbances in thinking and perception	2
+10019070	"Hallucination, auditory"	10013511	Disturbances in thinking and perception	2
+10019071	"Hallucination, gustatory"	10013511	Disturbances in thinking and perception	2
+10019072	"Hallucination, olfactory"	10013511	Disturbances in thinking and perception	2
+10019075	"Hallucination, visual"	10013511	Disturbances in thinking and perception	2
+10023118	Jamais vu	10013511	Disturbances in thinking and perception	2
+10016276	Fear of animals	10002861	Anxiety disorders and symptoms	2
+10016276	Fear of animals	10002861	Anxiety disorders and symptoms	2
+10039640	"Schizophrenia, residual type"	10039628	Schizophrenia and other psychotic disorders	2
+10043114	Tangentiality	10013511	Disturbances in thinking and perception	2
+10043268	Tension	10002861	Anxiety disorders and symptoms	2
+10043786	Thyrotoxic crisis	10037176	Psychiatric disorders NEC	2
+10047837	Water intoxication	10037176	Psychiatric disorders NEC	2
+10002511	Anhedonia	10012375	Depressed mood disorders and disturbances	2
+10005885	Blunted affect	10027946	Mood disorders and disturbances NEC	2
+10010778	Constricted affect	10027946	Mood disorders and disturbances NEC	2
+10013954	Dysphoria	10027946	Mood disorders and disturbances NEC	2
+10014483	Elevated mood	10027946	Mood disorders and disturbances NEC	2
+10016344	Feeling of despair	10012375	Depressed mood disorders and disturbances	2
+10016759	Flat affect	10027946	Mood disorders and disturbances NEC	2
+10021030	Hypomania	10026753	Manic and bipolar mood disorders and disturbances	2
+10021588	Inappropriate affect	10027946	Mood disorders and disturbances NEC	2
+10021703	Indifference	10027946	Mood disorders and disturbances NEC	2
+10021703	Indifference	10027946	Mood disorders and disturbances NEC	2
+10052214	Thought broadcasting	10013511	Disturbances in thinking and perception	2
+10043496	Thought insertion	10013511	Disturbances in thinking and perception	2
+10043497	Thought withdrawal	10013511	Disturbances in thinking and perception	2
+10036618	Premenstrual syndrome	10027946	Mood disorders and disturbances NEC	2
+10050012	Bradyphrenia	10013511	Disturbances in thinking and perception	2
+10007592	Cardiac neurosis	10002861	Anxiety disorders and symptoms	2
+10002518	Animal phobia	10002861	Anxiety disorders and symptoms	2
+10002518	Animal phobia	10002861	Anxiety disorders and symptoms	2
+10059232	Epileptic psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10041317	Somatic delusion	10013511	Disturbances in thinking and perception	2
+10012774	Diencephalic syndrome of infancy	10027946	Mood disorders and disturbances NEC	2
+10013982	Dysthymic disorder	10012375	Depressed mood disorders and disturbances	2
+10012422	Derealisation	10013511	Disturbances in thinking and perception	2
+10004940	Bipolar II disorder	10026753	Manic and bipolar mood disorders and disturbances	2
+10057667	Bipolar disorder	10026753	Manic and bipolar mood disorders and disturbances	2
+10029898	Obsessive-compulsive disorder	10002861	Anxiety disorders and symptoms	2
+10012374	Depressed mood	10012375	Depressed mood disorders and disturbances	2
+10043495	Thought blocking	10013511	Disturbances in thinking and perception	2
+10056393	Postpartum depression	10012375	Depressed mood disorders and disturbances	2
+10039621	Schizoaffective disorder	10039628	Schizophrenia and other psychotic disorders	2
+10027977	Morose	10012375	Depressed mood disorders and disturbances	2
+10051408	Arachnophobia	10002861	Anxiety disorders and symptoms	2
+10034702	Persecutory delusion	10013511	Disturbances in thinking and perception	2
+10040535	Shared psychotic disorder	10039628	Schizophrenia and other psychotic disorders	2
+10039775	Seasonal affective disorder	10027946	Mood disorders and disturbances NEC	2
+10066169	Substance abuse	10037176	Psychiatric disorders NEC	2
+10043903	Tobacco abuse	10037176	Psychiatric disorders NEC	2
+10049096	Dysmorphophobia	10002861	Anxiety disorders and symptoms	2
+10016278	Fear of disease	10002861	Anxiety disorders and symptoms	2
+10016278	Fear of disease	10002861	Anxiety disorders and symptoms	2
+10033670	Panic reaction	10002861	Anxiety disorders and symptoms	2
+10012252	"Delusional disorder, mixed type"	10039628	Schizophrenia and other psychotic disorders	2
+10041247	Social fear	10002861	Anxiety disorders and symptoms	2
+10066817	Activation syndrome	10002861	Anxiety disorders and symptoms	2
+10001854	Altered state of consciousness	10037176	Psychiatric disorders NEC	2
+10013654	Drug abuse	10037176	Psychiatric disorders NEC	2
+10037249	Psychotic behaviour	10039628	Schizophrenia and other psychotic disorders	2
+10066392	Fear of death	10002861	Anxiety disorders and symptoms	2
+10066392	Fear of death	10002861	Anxiety disorders and symptoms	2
+10015134	Erotomanic delusion	10013511	Disturbances in thinking and perception	2
+10018671	Grandiosity	10013511	Disturbances in thinking and perception	2
+10024642	Listless	10027946	Mood disorders and disturbances NEC	2
+10024642	Listless	10027946	Mood disorders and disturbances NEC	2
+10027944	Mood disorder due to a general medical condition	10027946	Mood disorders and disturbances NEC	2
+10021212	Ideas of reference	10013511	Disturbances in thinking and perception	2
+10050464	Morbid thoughts	10013511	Disturbances in thinking and perception	2
+10042028	Steroid withdrawal syndrome	10027946	Mood disorders and disturbances NEC	2
+10066241	Compulsive lip biting	10021563	Impulse control disorders NEC	2
+10067035	Fear of pregnancy	10002861	Anxiety disorders and symptoms	2
+10001584	Alcohol abuse	10037176	Psychiatric disorders NEC	2
+10067468	Dopamine dysregulation syndrome	10037176	Psychiatric disorders NEC	2
+10048010	Withdrawal syndrome	10037176	Psychiatric disorders NEC	2
+10034918	Phobic avoidance	10002861	Anxiety disorders and symptoms	2
+10043169	Tearfulness	10012375	Depressed mood disorders and disturbances	2
+10066779	Nail picking	10021563	Impulse control disorders NEC	2
+10043431	Thinking abnormal	10013511	Disturbances in thinking and perception	2
+10067580	Haphephobia	10002861	Anxiety disorders and symptoms	2
+10012244	Delusion of reference	10013511	Disturbances in thinking and perception	2
+10057666	Anxiety disorder	10002861	Anxiety disorders and symptoms	2
+10067967	Brain injury	10037176	Psychiatric disorders NEC	2
+10068298	Fear of needles	10002861	Anxiety disorders and symptoms	2
+10016277	Fear of closed spaces	10002861	Anxiety disorders and symptoms	2
+10016277	Fear of closed spaces	10002861	Anxiety disorders and symptoms	2
+10050366	Fear of eating	10002861	Anxiety disorders and symptoms	2
+10050366	Fear of eating	10002861	Anxiety disorders and symptoms	2
+10016279	Fear of open spaces	10002861	Anxiety disorders and symptoms	2
+10016279	Fear of open spaces	10002861	Anxiety disorders and symptoms	2
+10057948	Nocturnal fear	10002861	Anxiety disorders and symptoms	2
+10057948	Nocturnal fear	10002861	Anxiety disorders and symptoms	2
+10001022	Acute psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10034720	Personality change due to a general medical condition	10037176	Psychiatric disorders NEC	2
+10037213	Psychomotor retardation	10012375	Depressed mood disorders and disturbances	2
+10050365	Fear of crowded places	10002861	Anxiety disorders and symptoms	2
+10050365	Fear of crowded places	10002861	Anxiety disorders and symptoms	2
+10001623	Alcoholic hangover	10037176	Psychiatric disorders NEC	2
+10001632	Alcoholic psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10037207	Psychological factor affecting medical condition	10037176	Psychiatric disorders NEC	2
+10001500	Agitation neonatal	10002861	Anxiety disorders and symptoms	2
+10033668	Panic disorder without agoraphobia	10002861	Anxiety disorders and symptoms	2
+10002758	Anticipatory anxiety	10002861	Anxiety disorders and symptoms	2
+10067948	Compulsive shopping	10021563	Impulse control disorders NEC	2
+10068007	Compulsive hoarding	10021563	Impulse control disorders NEC	2
+10001299	Adjustment disorder with mixed anxiety and depressed mood	10001302	Adjustment disorders (incl subtypes)	2
+10001296	Adjustment disorder with anxiety	10001302	Adjustment disorders (incl subtypes)	2
+10001300	Adjustment disorder with mixed disturbance of emotion and conduct	10001302	Adjustment disorders (incl subtypes)	2
+10024825	Loose associations	10013511	Disturbances in thinking and perception	2
+10024511	Limited symptom panic attack	10002861	Anxiety disorders and symptoms	2
+10010390	Congenital brain damage	10037176	Psychiatric disorders NEC	2
+10048294	Mental status changes	10037176	Psychiatric disorders NEC	2
+10036468	Poverty of thought content	10013511	Disturbances in thinking and perception	2
+10011655	Cushingoid	10037176	Psychiatric disorders NEC	2
+10048549	Brief psychotic disorder with marked stressors	10039628	Schizophrenia and other psychotic disorders	2
+10006362	"Brief psychotic disorder, with postpartum onset"	10039628	Schizophrenia and other psychotic disorders	2
+10001666	Alice in wonderland syndrome	10039628	Schizophrenia and other psychotic disorders	2
+10004939	Bipolar I disorder	10026753	Manic and bipolar mood disorders and disturbances	2
+10037211	Psychomotor hyperactivity	10002861	Anxiety disorders and symptoms	2
+10039638	"Schizophrenia, disorganised type"	10039628	Schizophrenia and other psychotic disorders	2
+10013756	Drug withdrawal syndrome neonatal	10037176	Psychiatric disorders NEC	2
+10034913	Phobia of exams	10002861	Anxiety disorders and symptoms	2
+10016754	Flashback	10013511	Disturbances in thinking and perception	2
+10019079	"Hallucinations, mixed"	10013511	Disturbances in thinking and perception	2
+10019074	"Hallucination, tactile"	10013511	Disturbances in thinking and perception	2
+10016280	Fear of weight gain	10002861	Anxiety disorders and symptoms	2
+10034432	Performance fear	10002861	Anxiety disorders and symptoms	2
+10034914	Phobia of flying	10002861	Anxiety disorders and symptoms	2
+10011971	Decreased interest	10012375	Depressed mood disorders and disturbances	2
+10039987	Senile psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10039636	Schizophrenia simple	10039628	Schizophrenia and other psychotic disorders	2
+10023164	Jealous delusion	10013511	Disturbances in thinking and perception	2
+10012263	"Delusions, mixed"	10013511	Disturbances in thinking and perception	2
+10012245	Delusion of replacement	10013511	Disturbances in thinking and perception	2
+10012249	"Delusional disorder, erotomanic type"	10039628	Schizophrenia and other psychotic disorders	2
+10012250	"Delusional disorder, grandiose type"	10039628	Schizophrenia and other psychotic disorders	2
+10012251	"Delusional disorder, jealous type"	10039628	Schizophrenia and other psychotic disorders	2
+10012254	"Delusional disorder, somatic type"	10039628	Schizophrenia and other psychotic disorders	2
+10012255	"Delusional disorder, unspecified type"	10039628	Schizophrenia and other psychotic disorders	2
+10029897	Obsessive thoughts	10002861	Anxiety disorders and symptoms	2
+10015535	Euphoric mood	10027946	Mood disorders and disturbances NEC	2
+10016374	Feelings of worthlessness	10012375	Depressed mood disorders and disturbances	2
+10069024	Paruresis	10002861	Anxiety disorders and symptoms	2
+10070669	Postictal psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10018724	Grief reaction	10001302	Adjustment disorders (incl subtypes)	2
+10054956	Phonophobia	10002861	Anxiety disorders and symptoms	2
+10071176	Impaired reasoning	10013511	Disturbances in thinking and perception	2
+10027783	Moaning	10027946	Mood disorders and disturbances NEC	2
+10069423	Pharmacophobia	10002861	Anxiety disorders and symptoms	2
+10071238	Binge drinking	10037176	Psychiatric disorders NEC	2
+10071323	Neuropsychiatric syndrome	10037176	Psychiatric disorders NEC	2
+10049989	Agitation postoperative	10002861	Anxiety disorders and symptoms	2
+10049988	Anxiety postoperative	10002861	Anxiety disorders and symptoms	2
+10049986	Mental status changes postoperative	10037176	Psychiatric disorders NEC	2
+10070637	Emetophobia	10002861	Anxiety disorders and symptoms	2
+10056264	Obsessive rumination	10013511	Disturbances in thinking and perception	2
+10052792	"Schizophrenia, undifferentiated type"	10039628	Schizophrenia and other psychotic disorders	2
+10056392	Perinatal brain damage	10037176	Psychiatric disorders NEC	2
+10056610	Pseudoangina	10002861	Anxiety disorders and symptoms	2
+10048744	Fear of falling	10002861	Anxiety disorders and symptoms	2
+10053632	Reactive psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10071070	Autophobia	10002861	Anxiety disorders and symptoms	2
+10050095	Ochlophobia	10002861	Anxiety disorders and symptoms	2
+10050095	Ochlophobia	10002861	Anxiety disorders and symptoms	2
+10050096	Phagophobia	10002861	Anxiety disorders and symptoms	2
+10050096	Phagophobia	10002861	Anxiety disorders and symptoms	2
+10056395	Brief psychotic disorder without marked stressors	10039628	Schizophrenia and other psychotic disorders	2
+10049708	Feeling guilty	10012375	Depressed mood disorders and disturbances	2
+10056326	Transient psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10071263	Compulsive handwashing	10002861	Anxiety disorders and symptoms	2
+10049119	Emotional distress	10027946	Mood disorders and disturbances NEC	2
+10071571	Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infection	10002861	Anxiety disorders and symptoms	2
+10059612	Tobacco withdrawal symptoms	10037176	Psychiatric disorders NEC	2
+10057852	Nicotine dependence	10037176	Psychiatric disorders NEC	2
+10014557	Emotional poverty	10027946	Mood disorders and disturbances NEC	2
+10039626	Schizophrenia	10039628	Schizophrenia and other psychotic disorders	2
+10019063	Hallucination	10013511	Disturbances in thinking and perception	2
+10061920	Psychotic disorder	10039628	Schizophrenia and other psychotic disorders	2
+10052794	Panic disorder with agoraphobia	10002861	Anxiety disorders and symptoms	2
+10061621	Adjustment disorder	10001302	Adjustment disorders (incl subtypes)	2
+10012335	Dependence	10037176	Psychiatric disorders NEC	2
+10001606	Alcohol problem	10037176	Psychiatric disorders NEC	2
+10061284	Mental disorder	10037176	Psychiatric disorders NEC	2
+10061285	Mental disorder due to a general medical condition	10037176	Psychiatric disorders NEC	2
+10062645	Hysterical psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10061040	Childhood psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10061862	Neonatal complications of substance abuse	10037176	Psychiatric disorders NEC	2
+10061921	Psychotic disorder due to a general medical condition	10039628	Schizophrenia and other psychotic disorders	2
+10063385	Intellectualisation	10013511	Disturbances in thinking and perception	2
+10063663	Neuropsychiatric lupus	10037176	Psychiatric disorders NEC	2
+10042209	Stress	10002861	Anxiety disorders and symptoms	2
+10056676	Phobia of driving	10002861	Anxiety disorders and symptoms	2
+10051602	Laziness	10027946	Mood disorders and disturbances NEC	2
+10054196	Affect lability	10027946	Mood disorders and disturbances NEC	2
+10057946	Noctiphobia	10002861	Anxiety disorders and symptoms	2
+10057946	Noctiphobia	10002861	Anxiety disorders and symptoms	2
+10022523	Intentional overdose	10037176	Psychiatric disorders NEC	2
+10062764	Multiple drug overdose intentional	10037176	Psychiatric disorders NEC	2
+10054089	Depressive symptom	10012375	Depressed mood disorders and disturbances	2
+10016275	Fear	10002861	Anxiety disorders and symptoms	2
+10053195	"Delusional disorder, persecutory type"	10039628	Schizophrenia and other psychotic disorders	2
+10064805	Tachyphrenia	10013511	Disturbances in thinking and perception	2
+10062684	Somatic hallucination	10013511	Disturbances in thinking and perception	2
+10062824	"Hallucination, synaesthetic"	10013511	Disturbances in thinking and perception	2
+10063117	Paroxysmal perceptual alteration	10013511	Disturbances in thinking and perception	2
+10033666	Panic disorder	10002861	Anxiety disorders and symptoms	2
+10058672	Negative thoughts	10012375	Depressed mood disorders and disturbances	2
+10013675	"Drug dependence, antepartum"	10037176	Psychiatric disorders NEC	2
+10013676	"Drug dependence, postpartum"	10037176	Psychiatric disorders NEC	2
+10063354	Charles Bonnet syndrome	10013511	Disturbances in thinking and perception	2
+10065679	Intentional drug misuse	10037176	Psychiatric disorders NEC	2
+10014551	Emotional disorder	10027946	Mood disorders and disturbances NEC	2
+10001443	Affective disorder	10027946	Mood disorders and disturbances NEC	2
+10065617	Psychosis postoperative	10039628	Schizophrenia and other psychotic disorders	2
+10060765	Osmophobia	10002861	Anxiety disorders and symptoms	2
+10012239	Delusion	10013511	Disturbances in thinking and perception	2
+10027940	Mood altered	10027946	Mood disorders and disturbances NEC	2
+10027940	Mood altered	10027946	Mood disorders and disturbances NEC	2
+10021567	Impulsive behaviour	10021563	Impulse control disorders NEC	2
+10036173	Poriomania	10021563	Impulse control disorders NEC	2
+10063546	Nosophobia	10002861	Anxiety disorders and symptoms	2
+10063546	Nosophobia	10002861	Anxiety disorders and symptoms	2
+10061215	Impulse-control disorder	10021563	Impulse control disorders NEC	2
+10062494	Necromania	10021563	Impulse control disorders NEC	2
+10063033	Depressive delusion	10013511	Disturbances in thinking and perception	2
+10016165	Failure to thrive	10037176	Psychiatric disorders NEC	2
+10018075	Generalised anxiety disorder	10002861	Anxiety disorders and symptoms	2
+10064420	Photaugiaphobia	10002861	Anxiety disorders and symptoms	2
+10064723	Thanatophobia	10002861	Anxiety disorders and symptoms	2
+10064723	Thanatophobia	10002861	Anxiety disorders and symptoms	2
+10001084	Acute stress disorder	10002861	Anxiety disorders and symptoms	2
+10002859	Anxiety disorder due to a general medical condition	10002861	Anxiety disorders and symptoms	2
+10064862	Frustration	10027946	Mood disorders and disturbances NEC	2
+10039660	School refusal	10037176	Psychiatric disorders NEC	2
+10065701	Dermatillomania	10021563	Impulse control disorders NEC	2
+10001496	Agitated depression	10012375	Depressed mood disorders and disturbances	2
+10042458	Suicidal ideation	10042460	Suicidal and self-injurious behaviours NEC	2
+10067371	Menopausal depression	10012375	Depressed mood disorders and disturbances	2
+10068631	Childhood depression	10012375	Depressed mood disorders and disturbances	2
+10014552	Emotional disorder of childhood	10037176	Psychiatric disorders NEC	2
+10029343	Neurotic disorder of childhood	10037176	Psychiatric disorders NEC	2
+10034723	Personality disorder of childhood	10037176	Psychiatric disorders NEC	2
+10010144	Completed suicide	10042460	Suicidal and self-injurious behaviours NEC	2
+10012397	Depression suicidal	10012375	Depressed mood disorders and disturbances	2
+10022524	Intentional self-injury	10042460	Suicidal and self-injurious behaviours NEC	2
+10036419	Postpartum neurosis	10002861	Anxiety disorders and symptoms	2
+10068889	Schizoaffective disorder bipolar type	10039628	Schizophrenia and other psychotic disorders	2
+10068890	Schizoaffective disorder depressive type	10039628	Schizophrenia and other psychotic disorders	2
+10070606	Post stroke depression	10012375	Depressed mood disorders and disturbances	2
+10051154	Self-injurious ideation	10042460	Suicidal and self-injurious behaviours NEC	2
+10071324	Postictal depression	10012375	Depressed mood disorders and disturbances	2
+10012390	Depression postoperative	10012375	Depressed mood disorders and disturbances	2
+10056394	Postpartum stress disorder	10002861	Anxiety disorders and symptoms	2
+10029333	Neurosis	10002861	Anxiety disorders and symptoms	2
+10057840	Major depression	10012375	Depressed mood disorders and disturbances	2
+10063495	Self injurious behaviour	10042460	Suicidal and self-injurious behaviours NEC	2
+10065604	Suicidal behaviour	10042460	Suicidal and self-injurious behaviours NEC	2
+10065369	Burnout syndrome	10002861	Anxiety disorders and symptoms	2

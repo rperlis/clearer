@@ -1,0 +1,1136 @@
+PT_CODE	PT STR	HG CODE	HG STR	Category
+10027618	Mild mental retardation	10057167	Mental impairment disorders	1
+10027618	Mild mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10027791	Moderate mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10027791	Moderate mental retardation	10057167	Mental impairment disorders	1
+10040443	Severe mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10040443	Severe mental retardation	10057167	Mental impairment disorders	1
+10036791	Profound mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10036791	Profound mental retardation	10057167	Mental impairment disorders	1
+10037114	Pseudobulbar palsy	10028037	Movement disorders (incl parkinsonism)	3
+10033985	Paresis	10028037	Movement disorders (incl parkinsonism)	3
+10041415	Spastic paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10027926	Monoplegia	10028037	Movement disorders (incl parkinsonism)	3
+10001541	Akinesia	10028037	Movement disorders (incl parkinsonism)	3
+10043118	Tardive dyskinesia	10028037	Movement disorders (incl parkinsonism)	3
+10029412	Nightmare	10040991	Sleep disorders and disturbances	3
+10001497	Agitation	10028037	Movement disorders (incl parkinsonism)	3
+10056440	Oppositional defiant disorder	10009841	Cognitive and attention disorders and disturbances	1
+10053243	Polysubstance dependence	10037176	Psychiatric disorders NEC	2
+10047393	Vestibular neuronitis	10029305	Neurological disorders NEC	3
+10047393	Vestibular neuronitis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10047393	Vestibular neuronitis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10039637	"Schizophrenia, catatonic type"	10039628	Schizophrenia and other psychotic disorders	2
+10039639	"Schizophrenia, paranoid type"	10039628	Schizophrenia and other psychotic disorders	2
+10022568	Intermittent explosive disorder	10021563	Impulse control disorders NEC	2
+10034158	Pathological gambling	10021563	Impulse control disorders NEC	2
+10002942	Apathy	10027946	Mood disorders and disturbances NEC	2
+10002942	Apathy	10027946	Mood disorders and disturbances NEC	2
+10027951	Mood swings	10027946	Mood disorders and disturbances NEC	2
+10027951	Mood swings	10027946	Mood disorders and disturbances NEC	2
+10041250	Social phobia	10002861	Anxiety disorders and symptoms	2
+10052793	Body dysmorphic disorder	10002861	Anxiety disorders and symptoms	2
+10058920	Restless legs syndrome	10029305	Neurological disorders NEC	3
+10034912	Phobia	10002861	Anxiety disorders and symptoms	2
+10021750	Infantile spasms	10039911	Seizures (incl subtypes)	3
+10052288	Morton's neuralgia	10029305	Neurological disorders NEC	3
+10037999	Reading disorder	10009841	Cognitive and attention disorders and disturbances	1
+10053694	Saccadic eye movement	10029305	Neurological disorders NEC	3
+10042264	Stupor	10029305	Neurological disorders NEC	3
+10001497	Agitation	10002861	Anxiety disorders and symptoms	2
+10001297	Adjustment disorder with depressed mood	10001302	Adjustment disorders (incl subtypes)	2
+10001298	Adjustment disorder with disturbance of conduct	10001302	Adjustment disorders (incl subtypes)	2
+10021403	Illusion	10013511	Disturbances in thinking and perception	2
+10037999	Reading disorder	10009841	Cognitive and attention disorders and disturbances	1
+10037996	Reactive attachment disorder of infancy or early childhood	10037176	Psychiatric disorders NEC	2
+10039647	Schizophreniform disorder	10039628	Schizophrenia and other psychotic disorders	2
+10036316	Post-traumatic stress disorder	10002861	Anxiety disorders and symptoms	2
+10008754	Choreoathetosis	10028037	Movement disorders (incl parkinsonism)	3
+10036813	Progressive supranuclear palsy	10057167	Mental impairment disorders	1
+10009346	Clonus	10029305	Neurological disorders NEC	3
+10042264	Stupor	10040991	Sleep disorders and disturbances	3
+10001497	Agitation	10029305	Neurological disorders NEC	3
+10001497	Agitation	10029305	Neurological disorders NEC	3
+10037999	Reading disorder	10029305	Neurological disorders NEC	3
+10042464	Suicide attempt	10042460	Suicidal and self-injurious behaviours NEC	2
+10011953	Decreased activity	10028037	Movement disorders (incl parkinsonism)	3
+10002368	Anger	10027946	Mood disorders and disturbances NEC	2
+10048909	Boredom	10027946	Mood disorders and disturbances NEC	2
+10053164	Alcohol withdrawal syndrome	10037176	Psychiatric disorders NEC	2
+10001639	Alcoholism	10037176	Psychiatric disorders NEC	2
+10001949	Amnesia	10012272	Dementia and amnestic conditions	1
+10048663	Agnosia	10009841	Cognitive and attention disorders and disturbances	1
+10001508	Agraphia	10009841	Cognitive and attention disorders and disturbances	1
+10001663	Alexia	10009841	Cognitive and attention disorders and disturbances	1
+10002948	Aphasia	10009841	Cognitive and attention disorders and disturbances	1
+10003062	Apraxia	10009841	Cognitive and attention disorders and disturbances	1
+10003591	Ataxia	10029305	Neurological disorders NEC	3
+10016284	Febrile convulsion	10039911	Seizures (incl subtypes)	3
+10001480	Ageusia	10029305	Neurological disorders NEC	3
+10001502	Agoraphobia	10002861	Anxiety disorders and symptoms	2
+10001502	Agoraphobia	10002861	Anxiety disorders and symptoms	2
+10002953	Aphonia	10029305	Neurological disorders NEC	3
+10009244	Claustrophobia	10002861	Anxiety disorders and symptoms	2
+10009244	Claustrophobia	10002861	Anxiety disorders and symptoms	2
+10010071	Coma	10029305	Neurological disorders NEC	3
+10013887	Dysarthria	10029305	Neurological disorders NEC	3
+10013911	Dysgeusia	10029305	Neurological disorders NEC	3
+10013952	Dysphonia	10029305	Neurological disorders NEC	3
+10014127	Echolalia	10029305	Neurological disorders NEC	3
+10014129	Eclampsia	10039911	Seizures (incl subtypes)	3
+10013932	Dyslexia	10009841	Cognitive and attention disorders and disturbances	1
+10024855	Loss of consciousness	10029305	Neurological disorders NEC	3
+10043209	Temporal lobe epilepsy	10039911	Seizures (incl subtypes)	3
+10043209	Temporal lobe epilepsy	10039911	Seizures (incl subtypes)	3
+10002855	Anxiety	10002861	Anxiety disorders and symptoms	2
+10017062	Formication	10013511	Disturbances in thinking and perception	2
+10048663	Agnosia	10029305	Neurological disorders NEC	3
+10001508	Agraphia	10029305	Neurological disorders NEC	3
+10001663	Alexia	10029305	Neurological disorders NEC	3
+10001949	Amnesia	10057167	Mental impairment disorders	1
+10002948	Aphasia	10029305	Neurological disorders NEC	3
+10003062	Apraxia	10029305	Neurological disorders NEC	3
+10003062	Apraxia	10029305	Neurological disorders NEC	3
+10003620	Athetosis	10028037	Movement disorders (incl parkinsonism)	3
+10003805	Autism	10057167	Mental impairment disorders	1
+10011469	Crying	10029305	Neurological disorders NEC	3
+10012218	Delirium	10012221	Deliria (incl confusion)	1
+10013916	Dyskinesia	10028037	Movement disorders (incl parkinsonism)	3
+10019465	Hemiparesis	10028037	Movement disorders (incl parkinsonism)	3
+10019468	Hemiplegia	10028037	Movement disorders (incl parkinsonism)	3
+10020651	Hyperkinesia	10028037	Movement disorders (incl parkinsonism)	3
+10021021	Hypokinesia	10028037	Movement disorders (incl parkinsonism)	3
+10007737	Cataplexy	10040991	Sleep disorders and disturbances	3
+10011469	Crying	10027946	Mood disorders and disturbances NEC	2
+10023497	Kuru	10012272	Dementia and amnestic conditions	1
+10017062	Formication	10029305	Neurological disorders NEC	3
+10053317	Hydrophobia	10002861	Anxiety disorders and symptoms	2
+10027646	Miosis	10029305	Neurological disorders NEC	3
+10028403	Mutism	10029305	Neurological disorders NEC	3
+10028521	Mydriasis	10029305	Neurological disorders NEC	3
+10024264	Lethargy	10029305	Neurological disorders NEC	3
+10029216	Nervousness	10002861	Anxiety disorders and symptoms	2
+10013932	Dyslexia	10009841	Cognitive and attention disorders and disturbances	1
+10012378	Depression	10012375	Depressed mood disorders and disturbances	2
+10013573	Dizziness	10029305	Neurological disorders NEC	3
+10013642	Drooling	10029305	Neurological disorders NEC	3
+10013932	Dyslexia	10029305	Neurological disorders NEC	3
+10013983	Dystonia	10028037	Movement disorders (incl parkinsonism)	3
+10014643	Encopresis	10037176	Psychiatric disorders NEC	2
+10014928	Enuresis	10037176	Psychiatric disorders NEC	2
+10020765	Hypersomnia	10040991	Sleep disorders and disturbances	3
+10022437	Insomnia	10040991	Sleep disorders and disturbances	3
+10052276	Pseudodementia	10012272	Dementia and amnestic conditions	1
+10027266	Meningocele	10029305	Neurological disorders NEC	3
+10033892	Paraplegia	10028037	Movement disorders (incl parkinsonism)	3
+10034872	Phenylketonuria	10057167	Mental impairment disorders	1
+10034872	Phenylketonuria	10009841	Cognitive and attention disorders and disturbances	1
+10037714	Quadriplegia	10028037	Movement disorders (incl parkinsonism)	3
+10038743	Restlessness	10028037	Movement disorders (incl parkinsonism)	3
+10023461	Kleptomania	10021563	Impulse control disorders NEC	2
+10024264	Lethargy	10027946	Mood disorders and disturbances NEC	2
+10026749	Mania	10026753	Manic and bipolar mood disorders and disturbances	2
+10028713	Narcolepsy	10040991	Sleep disorders and disturbances	3
+10057342	Onychophagia	10021563	Impulse control disorders NEC	2
+10038743	Restlessness	10002861	Anxiety disorders and symptoms	2
+10042772	Syncope	10029305	Neurological disorders NEC	3
+10043882	Tinnitus	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10047340	Vertigo	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10044565	Tremor	10028037	Movement disorders (incl parkinsonism)	3
+10044688	Trisomy 21	10057167	Mental impairment disorders	1
+10044688	Trisomy 21	10009841	Cognitive and attention disorders and disturbances	1
+10001540	Akathisia	10028037	Movement disorders (incl parkinsonism)	3
+10034010	Parkinsonism	10028037	Movement disorders (incl parkinsonism)	3
+10037674	Pyromania	10021563	Impulse control disorders NEC	2
+10044629	Trichotillomania	10021563	Impulse control disorders NEC	2
+10043882	Tinnitus	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10043882	Tinnitus	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10047340	Vertigo	10029305	Neurological disorders NEC	3
+10013754	Drug withdrawal syndrome	10037176	Psychiatric disorders NEC	2
+10027197	Meningism	10029305	Neurological disorders NEC	3
+10028622	Myoclonus	10029305	Neurological disorders NEC	3
+10048736	Pneumocephalus	10029305	Neurological disorders NEC	3
+10038743	Restlessness	10029305	Neurological disorders NEC	3
+10038743	Restlessness	10029305	Neurological disorders NEC	3
+10042159	Strabismus	10029305	Neurological disorders NEC	3
+10042159	Strabismus	10029305	Neurological disorders NEC	3
+10033664	Panic attack	10002861	Anxiety disorders and symptoms	2
+10001540	Akathisia	10002861	Anxiety disorders and symptoms	2
+10047466	Viral labyrinthitis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10036182	Porphyria acute	10037176	Psychiatric disorders NEC	2
+10001115	Adams-Stokes syndrome	10029305	Neurological disorders NEC	3
+10003084	Areflexia	10029305	Neurological disorders NEC	3
+10009207	Circumstantiality	10013511	Disturbances in thinking and perception	2
+10010297	Confabulation	10013511	Disturbances in thinking and perception	2
+10011652	Cushing's syndrome	10037176	Psychiatric disorders NEC	2
+10012411	Derailment	10013511	Disturbances in thinking and perception	2
+10054940	Dyslogia	10037176	Psychiatric disorders NEC	2
+10000523	Acoustic neuroma	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10000523	Acoustic neuroma	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10002711	Anterograde amnesia	10012272	Dementia and amnestic conditions	1
+10011384	Creutzfeldt-Jakob disease	10012272	Dementia and amnestic conditions	1
+10054938	Cerebral disorder	10029305	Neurological disorders NEC	3
+10043833	Tic	10029305	Neurological disorders NEC	3
+10044074	Torticollis	10028037	Movement disorders (incl parkinsonism)	3
+10044684	Trismus	10028037	Movement disorders (incl parkinsonism)	3
+10020015	Heterophoria	10029305	Neurological disorders NEC	3
+10020015	Heterophoria	10029305	Neurological disorders NEC	3
+10042732	Sydenham's chorea	10028037	Movement disorders (incl parkinsonism)	3
+10023563	Labyrinthine fistula	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10000605	Acrophobia	10002861	Anxiety disorders and symptoms	2
+10053398	Clonic convulsion	10039911	Seizures (incl subtypes)	3
+10010219	Compulsions	10002861	Anxiety disorders and symptoms	2
+10010964	Coprolalia	10029305	Neurological disorders NEC	3
+10012177	Deja vu	10039911	Seizures (incl subtypes)	3
+10013395	Disorientation	10012221	Deliria (incl confusion)	1
+10013931	Dyslalia	10029305	Neurological disorders NEC	3
+10053878	Greig's syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10053878	Greig's syndrome	10057167	Mental impairment disorders	1
+10003547	Asterixis	10028037	Movement disorders (incl parkinsonism)	3
+10010562	Congenital nystagmus	10029305	Neurological disorders NEC	3
+10000346	Acalculia	10009841	Cognitive and attention disorders and disturbances	1
+10000346	Acalculia	10009841	Cognitive and attention disorders and disturbances	1
+10051498	Amusia	10009841	Cognitive and attention disorders and disturbances	1
+10013663	Drug dependence	10037176	Psychiatric disorders NEC	2
+10027183	Meniere's disease	10029305	Neurological disorders NEC	3
+10027990	Motion sickness	10029305	Neurological disorders NEC	3
+10016777	Flight of ideas	10013511	Disturbances in thinking and perception	2
+10020745	Hyperreflexia	10029305	Neurological disorders NEC	3
+10021089	Hyporeflexia	10029305	Neurological disorders NEC	3
+10021402	Illogical thinking	10013511	Disturbances in thinking and perception	2
+10056294	Kernig's sign	10029305	Neurological disorders NEC	3
+10025429	Magical thinking	10013511	Disturbances in thinking and perception	2
+10027990	Motion sickness	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10034703	Perseveration	10013511	Disturbances in thinking and perception	2
+10048727	Postictal state	10029305	Neurological disorders NEC	3
+10009696	Clumsiness	10028037	Movement disorders (incl parkinsonism)	3
+10059591	Cotard's syndrome	10013511	Disturbances in thinking and perception	2
+10011724	Cyclothymic disorder	10026753	Manic and bipolar mood disorders and disturbances	2
+10012225	Delirium tremens	10012221	Deliria (incl confusion)	1
+10012241	Delusion of grandeur	10013511	Disturbances in thinking and perception	2
+10013033	Diplegia	10028037	Movement disorders (incl parkinsonism)	3
+10017324	Fragile X syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10017324	Fragile X syndrome	10057167	Mental impairment disorders	1
+10012177	Deja vu	10013511	Disturbances in thinking and perception	2
+10012258	Delusional perception	10013511	Disturbances in thinking and perception	2
+10019070	"Hallucination, auditory"	10013511	Disturbances in thinking and perception	2
+10019071	"Hallucination, gustatory"	10013511	Disturbances in thinking and perception	2
+10019072	"Hallucination, olfactory"	10013511	Disturbances in thinking and perception	2
+10019075	"Hallucination, visual"	10013511	Disturbances in thinking and perception	2
+10023118	Jamais vu	10013511	Disturbances in thinking and perception	2
+10015049	Epileptic aura	10039911	Seizures (incl subtypes)	3
+10016016	Fabry's disease	10029305	Neurological disorders NEC	3
+10016276	Fear of animals	10002861	Anxiety disorders and symptoms	2
+10016276	Fear of animals	10002861	Anxiety disorders and symptoms	2
+10049690	Lhermitte's sign	10029305	Neurological disorders NEC	3
+10028916	Neologism	10029305	Neurological disorders NEC	3
+10033848	Paramnesia	10012272	Dementia and amnestic conditions	1
+10038965	Retrograde amnesia	10012272	Dementia and amnestic conditions	1
+10039640	"Schizophrenia, residual type"	10039628	Schizophrenia and other psychotic disorders	2
+10008025	Cerebellar ataxia	10029305	Neurological disorders NEC	3
+10049669	Dyscalculia	10009841	Cognitive and attention disorders and disturbances	1
+10049669	Dyscalculia	10009841	Cognitive and attention disorders and disturbances	1
+10013976	Dyspraxia	10009841	Cognitive and attention disorders and disturbances	1
+10048608	Gerstmann's syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10041349	Somnolence	10029305	Neurological disorders NEC	3
+10043114	Tangentiality	10013511	Disturbances in thinking and perception	2
+10043268	Tension	10002861	Anxiety disorders and symptoms	2
+10043786	Thyrotoxic crisis	10037176	Psychiatric disorders NEC	2
+10047837	Water intoxication	10037176	Psychiatric disorders NEC	2
+10022520	Intention tremor	10028037	Movement disorders (incl parkinsonism)	3
+10050638	Langer-Giedion syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10050638	Langer-Giedion syndrome	10057167	Mental impairment disorders	1
+10051707	Oculocerebrorenal syndrome	10057167	Mental impairment disorders	1
+10051707	Oculocerebrorenal syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10033885	Paraparesis	10028037	Movement disorders (incl parkinsonism)	3
+10052469	Postictal paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10036476	Prader-Willi syndrome	10057167	Mental impairment disorders	1
+10036476	Prader-Willi syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10002511	Anhedonia	10012375	Depressed mood disorders and disturbances	2
+10005885	Blunted affect	10027946	Mood disorders and disturbances NEC	2
+10010778	Constricted affect	10027946	Mood disorders and disturbances NEC	2
+10041962	Status epilepticus	10039911	Seizures (incl subtypes)	3
+10047313	Verbigeration	10029305	Neurological disorders NEC	3
+10056667	Cogan's syndrome	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10013954	Dysphoria	10027946	Mood disorders and disturbances NEC	2
+10014483	Elevated mood	10027946	Mood disorders and disturbances NEC	2
+10016344	Feeling of despair	10012375	Depressed mood disorders and disturbances	2
+10016759	Flat affect	10027946	Mood disorders and disturbances NEC	2
+10020927	Hypnagogic hallucination	10040991	Sleep disorders and disturbances	3
+10020928	Hypnopompic hallucination	10040991	Sleep disorders and disturbances	3
+10021030	Hypomania	10026753	Manic and bipolar mood disorders and disturbances	2
+10021588	Inappropriate affect	10027946	Mood disorders and disturbances NEC	2
+10021703	Indifference	10027946	Mood disorders and disturbances NEC	2
+10021703	Indifference	10027946	Mood disorders and disturbances NEC	2
+10027183	Meniere's disease	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10039281	Rubinstein-Taybi syndrome	10057167	Mental impairment disorders	1
+10039281	Rubinstein-Taybi syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10048676	Sjogren-Larsson syndrome	10057167	Mental impairment disorders	1
+10048676	Sjogren-Larsson syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10042008	Stereotypy	10028037	Movement disorders (incl parkinsonism)	3
+10052214	Thought broadcasting	10013511	Disturbances in thinking and perception	2
+10043496	Thought insertion	10013511	Disturbances in thinking and perception	2
+10043497	Thought withdrawal	10013511	Disturbances in thinking and perception	2
+10000346	Acalculia	10029305	Neurological disorders NEC	3
+10000346	Acalculia	10029305	Neurological disorders NEC	3
+10051498	Amusia	10029305	Neurological disorders NEC	3
+10002711	Anterograde amnesia	10057167	Mental impairment disorders	1
+10049054	Brain death	10029305	Neurological disorders NEC	3
+10011384	Creutzfeldt-Jakob disease	10057167	Mental impairment disorders	1
+10058444	Hoffmann's sign	10029305	Neurological disorders NEC	3
+10003628	Atonic seizures	10039911	Seizures (incl subtypes)	3
+10057410	Hippus	10029305	Neurological disorders NEC	3
+10020568	Hyperaesthesia	10029305	Neurological disorders NEC	3
+10020937	Hypoaesthesia	10029305	Neurological disorders NEC	3
+10048816	Lennox-Gastaut syndrome	10039911	Seizures (incl subtypes)	3
+10059599	Pseudomeningocele	10029305	Neurological disorders NEC	3
+10006100	Bradykinesia	10028037	Movement disorders (incl parkinsonism)	3
+10049066	Cohen syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10049066	Cohen syndrome	10057167	Mental impairment disorders	1
+10015496	Essential tremor	10028037	Movement disorders (incl parkinsonism)	3
+10027925	Monoparesis	10028037	Movement disorders (incl parkinsonism)	3
+10036618	Premenstrual syndrome	10027946	Mood disorders and disturbances NEC	2
+10050389	Cerebral ataxia	10029305	Neurological disorders NEC	3
+10050012	Bradyphrenia	10013511	Disturbances in thinking and perception	2
+10007592	Cardiac neurosis	10002861	Anxiety disorders and symptoms	2
+10049691	Morton's neuroma	10029305	Neurological disorders NEC	3
+10033775	Paraesthesia	10029305	Neurological disorders NEC	3
+10056238	Phantom pain	10029305	Neurological disorders NEC	3
+10050003	Pupillotonia	10029305	Neurological disorders NEC	3
+10050003	Pupillotonia	10029305	Neurological disorders NEC	3
+10040030	Sensory loss	10029305	Neurological disorders NEC	3
+10054874	Sphenopalatine neuralgia	10029305	Neurological disorders NEC	3
+10052492	Tinel's sign	10029305	Neurological disorders NEC	3
+10047913	Wernicke-Korsakoff syndrome	10012272	Dementia and amnestic conditions	1
+10047913	Wernicke-Korsakoff syndrome	10012272	Dementia and amnestic conditions	1
+10052075	Acquired epileptic aphasia	10039911	Seizures (incl subtypes)	3
+10002518	Animal phobia	10002861	Anxiety disorders and symptoms	2
+10002518	Animal phobia	10002861	Anxiety disorders and symptoms	2
+10059232	Epileptic psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10049680	Quadriparesis	10028037	Movement disorders (incl parkinsonism)	3
+10041317	Somatic delusion	10013511	Disturbances in thinking and perception	2
+10043788	Thyrotoxic periodic paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10049644	Williams syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10049644	Williams syndrome	10057167	Mental impairment disorders	1
+10059232	Epileptic psychosis	10039911	Seizures (incl subtypes)	3
+10015727	Extensor plantar response	10029305	Neurological disorders NEC	3
+10012774	Diencephalic syndrome of infancy	10027946	Mood disorders and disturbances NEC	2
+10049934	Endolymphatic hydrops	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10013395	Disorientation	10029305	Neurological disorders NEC	3
+10049669	Dyscalculia	10029305	Neurological disorders NEC	3
+10049669	Dyscalculia	10029305	Neurological disorders NEC	3
+10058319	Dysgraphia	10029305	Neurological disorders NEC	3
+10013976	Dyspraxia	10029305	Neurological disorders NEC	3
+10013976	Dyspraxia	10029305	Neurological disorders NEC	3
+10013982	Dysthymic disorder	10012375	Depressed mood disorders and disturbances	2
+10048608	Gerstmann's syndrome	10029305	Neurological disorders NEC	3
+10027175	Memory impairment	10012272	Dementia and amnestic conditions	1
+10013886	Dysaesthesia	10029305	Neurological disorders NEC	3
+10012422	Derealisation	10013511	Disturbances in thinking and perception	2
+10004940	Bipolar II disorder	10026753	Manic and bipolar mood disorders and disturbances	2
+10057667	Bipolar disorder	10026753	Manic and bipolar mood disorders and disturbances	2
+10012725	Diaphragmatic paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10012725	Diaphragmatic paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10059589	Dubowitz syndrome	10057167	Mental impairment disorders	1
+10059589	Dubowitz syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10021000	Hypoglycaemic coma	10029305	Neurological disorders NEC	3
+10049949	Intercostal neuralgia	10029305	Neurological disorders NEC	3
+10052897	Nerve injury	10029305	Neurological disorders NEC	3
+10017604	Galactosaemia	10009841	Cognitive and attention disorders and disturbances	1
+10017604	Galactosaemia	10057167	Mental impairment disorders	1
+10009697	Clumsy child syndrome	10029305	Neurological disorders NEC	3
+10054998	Neuroglycopenia	10029305	Neurological disorders NEC	3
+10029898	Obsessive-compulsive disorder	10002861	Anxiety disorders and symptoms	2
+10039917	Selective mutism	10029305	Neurological disorders NEC	3
+10012374	Depressed mood	10012375	Depressed mood disorders and disturbances	2
+10039897	Sedation	10029305	Neurological disorders NEC	3
+10043495	Thought blocking	10013511	Disturbances in thinking and perception	2
+10030899	Opisthotonus	10028037	Movement disorders (incl parkinsonism)	3
+10035004	Pickwickian syndrome	10040991	Sleep disorders and disturbances	3
+10056393	Postpartum depression	10012375	Depressed mood disorders and disturbances	2
+10038965	Retrograde amnesia	10057167	Mental impairment disorders	1
+10039621	Schizoaffective disorder	10039628	Schizophrenia and other psychotic disorders	2
+10041349	Somnolence	10040991	Sleep disorders and disturbances	3
+10027977	Morose	10012375	Depressed mood disorders and disturbances	2
+10053552	Allodynia	10029305	Neurological disorders NEC	3
+10054878	Anaesthesia dolorosa	10029305	Neurological disorders NEC	3
+10002977	Apnoeic attack	10029305	Neurological disorders NEC	3
+10003033	Application site anaesthesia	10029305	Neurological disorders NEC	3
+10051408	Arachnophobia	10002861	Anxiety disorders and symptoms	2
+10012206	Delayed recovery from anaesthesia	10029305	Neurological disorders NEC	3
+10034702	Persecutory delusion	10013511	Disturbances in thinking and perception	2
+10029289	Neurologic neglect syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10040535	Shared psychotic disorder	10039628	Schizophrenia and other psychotic disorders	2
+10039775	Seasonal affective disorder	10027946	Mood disorders and disturbances NEC	2
+10057375	Balint's syndrome	10029305	Neurological disorders NEC	3
+10066169	Substance abuse	10037176	Psychiatric disorders NEC	2
+10043903	Tobacco abuse	10037176	Psychiatric disorders NEC	2
+10049096	Dysmorphophobia	10002861	Anxiety disorders and symptoms	2
+10016278	Fear of disease	10002861	Anxiety disorders and symptoms	2
+10016278	Fear of disease	10002861	Anxiety disorders and symptoms	2
+10049424	Frontal lobe epilepsy	10039911	Seizures (incl subtypes)	3
+10048792	Spastic paraplegia	10028037	Movement disorders (incl parkinsonism)	3
+10048327	Supranuclear palsy	10028037	Movement disorders (incl parkinsonism)	3
+10044689	Trisomy 22	10057167	Mental impairment disorders	1
+10044689	Trisomy 22	10009841	Cognitive and attention disorders and disturbances	1
+10065996	Autoimmune inner ear disease	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10022046	Injection site anaesthesia	10029305	Neurological disorders NEC	3
+10022088	Injection site paraesthesia	10029305	Neurological disorders NEC	3
+10024796	Logorrhoea	10029305	Neurological disorders NEC	3
+10033670	Panic reaction	10002861	Anxiety disorders and symptoms	2
+10035551	Pleocytosis	10029305	Neurological disorders NEC	3
+10036312	Post-traumatic epilepsy	10039911	Seizures (incl subtypes)	3
+10013486	Distractibility	10009841	Cognitive and attention disorders and disturbances	1
+10022035	Initial insomnia	10040991	Sleep disorders and disturbances	3
+10048816	Lennox-Gastaut syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10027590	Middle insomnia	10040991	Sleep disorders and disturbances	3
+10066842	Behavioural and psychiatric symptoms of dementia	10012272	Dementia and amnestic conditions	1
+10065981	Hypoglycaemic unconsciousness	10029305	Neurological disorders NEC	3
+10000125	Abnormal dreams	10040991	Sleep disorders and disturbances	3
+10010474	Congenital flaccid paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10012252	"Delusional disorder, mixed type"	10039628	Schizophrenia and other psychotic disorders	2
+10048705	Paraneoplastic cerebellar degeneration	10029305	Neurological disorders NEC	3
+10038583	Repetitive speech	10029305	Neurological disorders NEC	3
+10041247	Social fear	10002861	Anxiety disorders and symptoms	2
+10066482	Exaggerated startle response	10029305	Neurological disorders NEC	3
+10001496	Agitated depression	10029305	Neurological disorders NEC	3
+10047385	Vestibular ataxia	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10058709	Sopor	10029305	Neurological disorders NEC	3
+10066817	Activation syndrome	10002861	Anxiety disorders and symptoms	2
+10066966	Inner ear inflammation	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10066966	Inner ear inflammation	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10001854	Altered state of consciousness	10037176	Psychiatric disorders NEC	2
+10001854	Altered state of consciousness	10029305	Neurological disorders NEC	3
+10067206	Postural reflex impairment	10029305	Neurological disorders NEC	3
+10013654	Drug abuse	10037176	Psychiatric disorders NEC	2
+10067587	Neurosensory hypoacusis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10067587	Neurosensory hypoacusis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10037249	Psychotic behaviour	10039628	Schizophrenia and other psychotic disorders	2
+10045555	Unresponsive to stimuli	10029305	Neurological disorders NEC	3
+10066392	Fear of death	10002861	Anxiety disorders and symptoms	2
+10066392	Fear of death	10002861	Anxiety disorders and symptoms	2
+10036653	Presyncope	10029305	Neurological disorders NEC	3
+10066373	Floppy iris syndrome	10029305	Neurological disorders NEC	3
+10050467	Tongue biting	10029305	Neurological disorders NEC	3
+10015134	Erotomanic delusion	10013511	Disturbances in thinking and perception	2
+10017472	Fumbling	10028037	Movement disorders (incl parkinsonism)	3
+10018671	Grandiosity	10013511	Disturbances in thinking and perception	2
+10024642	Listless	10027946	Mood disorders and disturbances NEC	2
+10024642	Listless	10027946	Mood disorders and disturbances NEC	2
+10026863	Masked facies	10028037	Movement disorders (incl parkinsonism)	3
+10027944	Mood disorder due to a general medical condition	10027946	Mood disorders and disturbances NEC	2
+10056242	Parkinsonian gait	10028037	Movement disorders (incl parkinsonism)	3
+10058530	Peripheral nerve palsy	10028037	Movement disorders (incl parkinsonism)	3
+10053841	Sneddon's syndrome	10012272	Dementia and amnestic conditions	1
+10021212	Ideas of reference	10013511	Disturbances in thinking and perception	2
+10050464	Morbid thoughts	10013511	Disturbances in thinking and perception	2
+10049095	Decerebration	10029305	Neurological disorders NEC	3
+10041002	Sleep paralysis	10040991	Sleep disorders and disturbances	3
+10042028	Steroid withdrawal syndrome	10027946	Mood disorders and disturbances NEC	2
+10066241	Compulsive lip biting	10021563	Impulse control disorders NEC	2
+10066817	Activation syndrome	10029305	Neurological disorders NEC	3
+10066964	Procedural dizziness	10029305	Neurological disorders NEC	3
+10067068	Intranasal hypoaesthesia	10029305	Neurological disorders NEC	3
+10066856	Visual midline shift syndrome	10029305	Neurological disorders NEC	3
+10066855	Taciturnity	10029305	Neurological disorders NEC	3
+10066988	Vessel puncture site anaesthesia	10029305	Neurological disorders NEC	3
+10067035	Fear of pregnancy	10002861	Anxiety disorders and symptoms	2
+10067055	Paradoxical pain	10029305	Neurological disorders NEC	3
+10001584	Alcohol abuse	10037176	Psychiatric disorders NEC	2
+10067468	Dopamine dysregulation syndrome	10037176	Psychiatric disorders NEC	2
+10048010	Withdrawal syndrome	10037176	Psychiatric disorders NEC	2
+10067889	Dementia with Lewy bodies	10012272	Dementia and amnestic conditions	1
+10066224	Acute post asthmatic amyotrophy	10028037	Movement disorders (incl parkinsonism)	3
+10066088	Fine motor delay	10028037	Movement disorders (incl parkinsonism)	3
+10057570	Respiratory dyskinesia	10028037	Movement disorders (incl parkinsonism)	3
+10066430	Velo-cardio-facial syndrome	10057167	Mental impairment disorders	1
+10066430	Velo-cardio-facial syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10057678	Vascular dementia	10012272	Dementia and amnestic conditions	1
+10067271	Iridoplegia	10029305	Neurological disorders NEC	3
+10034918	Phobic avoidance	10002861	Anxiety disorders and symptoms	2
+10010305	Confusional state	10012221	Deliria (incl confusion)	1
+10047385	Vestibular ataxia	10029305	Neurological disorders NEC	3
+10043169	Tearfulness	10012375	Depressed mood disorders and disturbances	2
+10066779	Nail picking	10021563	Impulse control disorders NEC	2
+10043431	Thinking abnormal	10013511	Disturbances in thinking and perception	2
+10067519	Vessel puncture site paraesthesia	10029305	Neurological disorders NEC	3
+10067564	Anaesthesia procedure	10029305	Neurological disorders NEC	3
+10067580	Haphephobia	10002861	Anxiety disorders and symptoms	2
+10050361	Wolf-Hirschhorn syndrome	10057167	Mental impairment disorders	1
+10050361	Wolf-Hirschhorn syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10012244	Delusion of reference	10013511	Disturbances in thinking and perception	2
+10067130	Spastic diplegia	10028037	Movement disorders (incl parkinsonism)	3
+10009848	Cogwheel rigidity	10028037	Movement disorders (incl parkinsonism)	3
+10047913	Wernicke-Korsakoff syndrome	10057167	Mental impairment disorders	1
+10047913	Wernicke-Korsakoff syndrome	10057167	Mental impairment disorders	1
+10057666	Anxiety disorder	10002861	Anxiety disorders and symptoms	2
+10050012	Bradyphrenia	10057167	Mental impairment disorders	1
+10067967	Brain injury	10037176	Psychiatric disorders NEC	2
+10068101	Vestibular nystagmus	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10010145	Complex partial seizures	10039911	Seizures (incl subtypes)	3
+10051852	Palmomental reflex	10029305	Neurological disorders NEC	3
+10067702	Post-anoxic myoclonus	10029305	Neurological disorders NEC	3
+10068298	Fear of needles	10002861	Anxiety disorders and symptoms	2
+10016277	Fear of closed spaces	10002861	Anxiety disorders and symptoms	2
+10016277	Fear of closed spaces	10002861	Anxiety disorders and symptoms	2
+10050366	Fear of eating	10002861	Anxiety disorders and symptoms	2
+10050366	Fear of eating	10002861	Anxiety disorders and symptoms	2
+10016279	Fear of open spaces	10002861	Anxiety disorders and symptoms	2
+10016279	Fear of open spaces	10002861	Anxiety disorders and symptoms	2
+10057948	Nocturnal fear	10002861	Anxiety disorders and symptoms	2
+10057948	Nocturnal fear	10002861	Anxiety disorders and symptoms	2
+10068009	Thermohypoaesthesia	10029305	Neurological disorders NEC	3
+10068010	Thermoanaesthesia	10029305	Neurological disorders NEC	3
+10067462	Millard-Gubler syndrome	10029305	Neurological disorders NEC	3
+10067548	Cerebral salt-wasting syndrome	10029305	Neurological disorders NEC	3
+10001022	Acute psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10034720	Personality change due to a general medical condition	10037176	Psychiatric disorders NEC	2
+10038254	Reflexes abnormal	10029305	Neurological disorders NEC	3
+10057660	Spinocerebellar ataxia	10029305	Neurological disorders NEC	3
+10037213	Psychomotor retardation	10012375	Depressed mood disorders and disturbances	2
+10068065	Burning mouth syndrome	10029305	Neurological disorders NEC	3
+10068065	Burning mouth syndrome	10029305	Neurological disorders NEC	3
+10067831	Post-thoracotomy pain syndrome	10029305	Neurological disorders NEC	3
+10068011	Thermohyperaesthesia	10029305	Neurological disorders NEC	3
+10050365	Fear of crowded places	10002861	Anxiety disorders and symptoms	2
+10050365	Fear of crowded places	10002861	Anxiety disorders and symptoms	2
+10020352	Holmes-Adie pupil	10029305	Neurological disorders NEC	3
+10020352	Holmes-Adie pupil	10029305	Neurological disorders NEC	3
+10068097	Raymond-Cestan syndrome	10029305	Neurological disorders NEC	3
+10001623	Alcoholic hangover	10037176	Psychiatric disorders NEC	2
+10001632	Alcoholic psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10037207	Psychological factor affecting medical condition	10037176	Psychiatric disorders NEC	2
+10001500	Agitation neonatal	10002861	Anxiety disorders and symptoms	2
+10012294	"Dementia of the Alzheimer's type, with delirium"	10057167	Mental impairment disorders	1
+10012294	"Dementia of the Alzheimer's type, with delirium"	10012272	Dementia and amnestic conditions	1
+10012295	"Dementia of the Alzheimer's type, with delusions"	10057167	Mental impairment disorders	1
+10012295	"Dementia of the Alzheimer's type, with delusions"	10012272	Dementia and amnestic conditions	1
+10012296	"Dementia of the Alzheimer's type, with depressed mood"	10057167	Mental impairment disorders	1
+10001500	Agitation neonatal	10029305	Neurological disorders NEC	3
+10033668	Panic disorder without agoraphobia	10002861	Anxiety disorders and symptoms	2
+10001596	Alcohol induced persisting dementia	10012272	Dementia and amnestic conditions	1
+10036309	Post-traumatic amnestic disorder	10012272	Dementia and amnestic conditions	1
+10041009	Sleep talking	10040991	Sleep disorders and disturbances	3
+10041347	Somnambulism	10040991	Sleep disorders and disturbances	3
+10067493	Sleep inertia	10040991	Sleep disorders and disturbances	3
+10067494	Confusional arousal	10040991	Sleep disorders and disturbances	3
+10067492	Sleep sex	10040991	Sleep disorders and disturbances	3
+10012296	"Dementia of the Alzheimer's type, with depressed mood"	10012272	Dementia and amnestic conditions	1
+10012293	"Dementia of the Alzheimer's type, uncomplicated"	10012272	Dementia and amnestic conditions	1
+10012293	"Dementia of the Alzheimer's type, uncomplicated"	10057167	Mental impairment disorders	1
+10002758	Anticipatory anxiety	10002861	Anxiety disorders and symptoms	2
+10002941	Apallic syndrome	10029305	Neurological disorders NEC	3
+10068101	Vestibular nystagmus	10029305	Neurological disorders NEC	3
+10067468	Dopamine dysregulation syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10067948	Compulsive shopping	10021563	Impulse control disorders NEC	2
+10068007	Compulsive hoarding	10021563	Impulse control disorders NEC	2
+10068100	Vascular parkinsonism	10028037	Movement disorders (incl parkinsonism)	3
+10003746	Atypical attention deficit syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10003736	Attention deficit/hyperactivity disorder	10009841	Cognitive and attention disorders and disturbances	1
+10001299	Adjustment disorder with mixed anxiety and depressed mood	10001302	Adjustment disorders (incl subtypes)	2
+10001296	Adjustment disorder with anxiety	10001302	Adjustment disorders (incl subtypes)	2
+10001300	Adjustment disorder with mixed disturbance of emotion and conduct	10001302	Adjustment disorders (incl subtypes)	2
+10002105	Anaesthetic complication neurological	10029305	Neurological disorders NEC	3
+10039907	Seizure anoxic	10039911	Seizures (incl subtypes)	3
+10002954	Aphonia psychogenic	10029305	Neurological disorders NEC	3
+10003063	Aprosody	10029305	Neurological disorders NEC	3
+10003093	Argyll-Robertson pupils	10029305	Neurological disorders NEC	3
+10024825	Loose associations	10013511	Disturbances in thinking and perception	2
+10003831	Automatism epileptic	10039911	Seizures (incl subtypes)	3
+10067315	Sleep-related eating disorder	10040991	Sleep disorders and disturbances	3
+10027378	Mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10027378	Mental retardation	10057167	Mental impairment disorders	1
+10018090	Generalised non-convulsive epilepsy	10039911	Seizures (incl subtypes)	3
+10024511	Limited symptom panic attack	10002861	Anxiety disorders and symptoms	2
+10037076	Protrusion tongue	10029305	Neurological disorders NEC	3
+10027757	Mixed deafness	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10027757	Mixed deafness	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10010390	Congenital brain damage	10037176	Psychiatric disorders NEC	2
+10068034	Adiposogenital dystrophy	10009841	Cognitive and attention disorders and disturbances	1
+10068034	Adiposogenital dystrophy	10057167	Mental impairment disorders	1
+10068366	Idioglossia	10029305	Neurological disorders NEC	3
+10068357	Neurological decompensation	10029305	Neurological disorders NEC	3
+10048294	Mental status changes	10037176	Psychiatric disorders NEC	2
+10037841	Rapid eye movements sleep abnormal	10040991	Sleep disorders and disturbances	3
+10016945	Fontanelle bulging	10029305	Neurological disorders NEC	3
+10006789	Burning sensation mucosal	10029305	Neurological disorders NEC	3
+10012373	Depressed level of consciousness	10029305	Neurological disorders NEC	3
+10036468	Poverty of thought content	10013511	Disturbances in thinking and perception	2
+10011655	Cushingoid	10037176	Psychiatric disorders NEC	2
+10048549	Brief psychotic disorder with marked stressors	10039628	Schizophrenia and other psychotic disorders	2
+10006362	"Brief psychotic disorder, with postpartum onset"	10039628	Schizophrenia and other psychotic disorders	2
+10001666	Alice in wonderland syndrome	10039628	Schizophrenia and other psychotic disorders	2
+10013634	Dreamy state	10039911	Seizures (incl subtypes)	3
+10040981	Sleep attacks	10040991	Sleep disorders and disturbances	3
+10068346	Anosognosia	10009841	Cognitive and attention disorders and disturbances	1
+10034719	Personality change	10029305	Neurological disorders NEC	3
+10012668	Diabetic hyperglycaemic coma	10029305	Neurological disorders NEC	3
+10012669	Diabetic hyperosmolar coma	10029305	Neurological disorders NEC	3
+10010075	Coma hepatic	10029305	Neurological disorders NEC	3
+10010082	Coma uraemic	10029305	Neurological disorders NEC	3
+10047343	Vertigo CNS origin	10029305	Neurological disorders NEC	3
+10004153	Basal ganglion degeneration	10028037	Movement disorders (incl parkinsonism)	3
+10015039	Epilepsy congenital	10039911	Seizures (incl subtypes)	3
+10013752	Drug withdrawal convulsions	10039911	Seizures (incl subtypes)	3
+10010920	Convulsions local	10039911	Seizures (incl subtypes)	3
+10010920	Convulsions local	10039911	Seizures (incl subtypes)	3
+10043994	Tonic convulsion	10039911	Seizures (incl subtypes)	3
+10010927	Convulsive threshold lowered	10039911	Seizures (incl subtypes)	3
+10011875	Deaf mutism	10029305	Neurological disorders NEC	3
+10048334	Mobility decreased	10029305	Neurological disorders NEC	3
+10068395	Rabbit syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10004939	Bipolar I disorder	10026753	Manic and bipolar mood disorders and disturbances	2
+10045476	Uncinate fits	10039911	Seizures (incl subtypes)	3
+10011891	Deafness neurosensory	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10011891	Deafness neurosensory	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10011894	Deafness permanent	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10011894	Deafness permanent	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10011900	Deafness transitory	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10011900	Deafness transitory	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10041466	Speech disorder	10029305	Neurological disorders NEC	3
+10013953	Dysphonia psychogenic	10029305	Neurological disorders NEC	3
+10013977	Dysprosody	10029305	Neurological disorders NEC	3
+10037211	Psychomotor hyperactivity	10002861	Anxiety disorders and symptoms	2
+10039638	"Schizophrenia, disorganised type"	10039628	Schizophrenia and other psychotic disorders	2
+10013756	Drug withdrawal syndrome neonatal	10037176	Psychiatric disorders NEC	2
+10047344	Vertigo labyrinthine	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10033553	Palmar-plantar erythrodysaesthesia syndrome	10029305	Neurological disorders NEC	3
+10034913	Phobia of exams	10002861	Anxiety disorders and symptoms	2
+10020939	Hypoaesthesia eye	10029305	Neurological disorders NEC	3
+10016754	Flashback	10013511	Disturbances in thinking and perception	2
+10006532	Buccoglossal syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10047409	VIIIth nerve injury	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10047409	VIIIth nerve injury	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10047409	VIIIth nerve injury	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10047409	VIIIth nerve injury	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10041350	Somnolence neonatal	10029305	Neurological disorders NEC	3
+10019079	"Hallucinations, mixed"	10013511	Disturbances in thinking and perception	2
+10019074	"Hallucination, tactile"	10013511	Disturbances in thinking and perception	2
+10008072	Cerebellar syndrome	10029305	Neurological disorders NEC	3
+10016280	Fear of weight gain	10002861	Anxiety disorders and symptoms	2
+10034432	Performance fear	10002861	Anxiety disorders and symptoms	2
+10037515	Pupil fixed	10029305	Neurological disorders NEC	3
+10034914	Phobia of flying	10002861	Anxiety disorders and symptoms	2
+10017065	Foster-Kennedy Syndrome	10029305	Neurological disorders NEC	3
+10047344	Vertigo labyrinthine	10029305	Neurological disorders NEC	3
+10047348	Vertigo positional	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10037214	Psychomotor seizures	10039911	Seizures (incl subtypes)	3
+10037214	Psychomotor seizures	10039911	Seizures (incl subtypes)	3
+10020989	Hypogeusia	10029305	Neurological disorders NEC	3
+10011385	Cri du Chat syndrome	10057167	Mental impairment disorders	1
+10011385	Cri du Chat syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10011971	Decreased interest	10012375	Depressed mood disorders and disturbances	2
+10047348	Vertigo positional	10029305	Neurological disorders NEC	3
+10039987	Senile psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10039636	Schizophrenia simple	10039628	Schizophrenia and other psychotic disorders	2
+10069162	Gasping syndrome	10029305	Neurological disorders NEC	3
+10037532	Pupillary reflex impaired	10029305	Neurological disorders NEC	3
+10021630	Incoherent	10029305	Neurological disorders NEC	3
+10023164	Jealous delusion	10013511	Disturbances in thinking and perception	2
+10012263	"Delusions, mixed"	10013511	Disturbances in thinking and perception	2
+10012245	Delusion of replacement	10013511	Disturbances in thinking and perception	2
+10012249	"Delusional disorder, erotomanic type"	10039628	Schizophrenia and other psychotic disorders	2
+10012250	"Delusional disorder, grandiose type"	10039628	Schizophrenia and other psychotic disorders	2
+10012251	"Delusional disorder, jealous type"	10039628	Schizophrenia and other psychotic disorders	2
+10012254	"Delusional disorder, somatic type"	10039628	Schizophrenia and other psychotic disorders	2
+10012255	"Delusional disorder, unspecified type"	10039628	Schizophrenia and other psychotic disorders	2
+10068968	Frontotemporal dementia	10012272	Dementia and amnestic conditions	1
+10069580	Reappearance of infantile reflexes	10029305	Neurological disorders NEC	3
+10029897	Obsessive thoughts	10002861	Anxiety disorders and symptoms	2
+10034759	Petit mal epilepsy	10039911	Seizures (incl subtypes)	3
+10015535	Euphoric mood	10027946	Mood disorders and disturbances NEC	2
+10016374	Feelings of worthlessness	10012375	Depressed mood disorders and disturbances	2
+10040703	Simple partial seizures	10039911	Seizures (incl subtypes)	3
+10037538	Pupils unequal	10029305	Neurological disorders NEC	3
+10015832	Extrapyramidal disorder	10028037	Movement disorders (incl parkinsonism)	3
+10046270	Up and down phenomenon	10028037	Movement disorders (incl parkinsonism)	3
+10013922	Dyskinesia neonatal	10028037	Movement disorders (incl parkinsonism)	3
+10013924	Dyskinesia oesophageal	10028037	Movement disorders (incl parkinsonism)	3
+10069149	Minor cognitive motor disorder	10029305	Neurological disorders NEC	3
+10044380	Transient global amnesia	10012272	Dementia and amnestic conditions	1
+10033809	Paralysis flaccid	10028037	Movement disorders (incl parkinsonism)	3
+10017585	Gait spastic	10028037	Movement disorders (incl parkinsonism)	3
+10017605	Galactose intolerance	10057167	Mental impairment disorders	1
+10017605	Galactose intolerance	10009841	Cognitive and attention disorders and disturbances	1
+10069024	Paruresis	10002861	Anxiety disorders and symptoms	2
+10070669	Postictal psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10069147	Hypergeusia	10029305	Neurological disorders NEC	3
+10068912	Genital hypoaesthesia	10029305	Neurological disorders NEC	3
+10018724	Grief reaction	10001302	Adjustment disorders (incl subtypes)	2
+10049612	Autonomic seizure	10039911	Seizures (incl subtypes)	3
+10068872	Toe walking	10029305	Neurological disorders NEC	3
+10069124	Injection site dysaesthesia	10029305	Neurological disorders NEC	3
+10054956	Phonophobia	10002861	Anxiety disorders and symptoms	2
+10071176	Impaired reasoning	10013511	Disturbances in thinking and perception	2
+10050093	Consciousness fluctuating	10029305	Neurological disorders NEC	3
+10070309	Methylenetetrahydrofolate reductase deficiency	10029305	Neurological disorders NEC	3
+10069836	Neurological complication associated with device	10029305	Neurological disorders NEC	3
+10037211	Psychomotor hyperactivity	10028037	Movement disorders (incl parkinsonism)	3
+10020652	Hyperkinesia neonatal	10028037	Movement disorders (incl parkinsonism)	3
+10021022	Hypokinesia neonatal	10028037	Movement disorders (incl parkinsonism)	3
+10050395	Neonatal oversedation	10029305	Neurological disorders NEC	3
+10050002	Oculocephalogyric reflex absent	10029305	Neurological disorders NEC	3
+10071286	Hyperglycaemic unconsciousness	10029305	Neurological disorders NEC	3
+10027783	Moaning	10027946	Mood disorders and disturbances NEC	2
+10030312	On and off phenomenon	10028037	Movement disorders (incl parkinsonism)	3
+10069481	Vaccination site paraesthesia	10029305	Neurological disorders NEC	3
+10069646	Camptocormia	10029305	Neurological disorders NEC	3
+10067502	Decreased vibratory sense	10029305	Neurological disorders NEC	3
+10069579	Posterior fossa syndrome	10029305	Neurological disorders NEC	3
+10069386	Incision site hypoaesthesia	10029305	Neurological disorders NEC	3
+10069423	Pharmacophobia	10002861	Anxiety disorders and symptoms	2
+10024792	Locked-in syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10027138	Meige's syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10068327	Vibratory sense increased	10029305	Neurological disorders NEC	3
+10069633	Decreased eye contact	10029305	Neurological disorders NEC	3
+10069827	Coma blister	10029305	Neurological disorders NEC	3
+10070237	Burning feet syndrome	10029305	Neurological disorders NEC	3
+10069825	Myoclonic epilepsy and ragged-red fibres	10039911	Seizures (incl subtypes)	3
+10069828	Trigemino-cardiac reflex	10029305	Neurological disorders NEC	3
+10069687	Molybdenum cofactor deficiency	10039911	Seizures (incl subtypes)	3
+10069724	Amputation stump pain	10029305	Neurological disorders NEC	3
+10068855	Symbolic dysfunction	10009841	Cognitive and attention disorders and disturbances	1
+10068768	Cerebellar cognitive affective syndrome	10029305	Neurological disorders NEC	3
+10071238	Binge drinking	10037176	Psychiatric disorders NEC	2
+10044575	Tremor neonatal	10028037	Movement disorders (incl parkinsonism)	3
+10044696	Tropical spastic paresis	10028037	Movement disorders (incl parkinsonism)	3
+10071323	Neuropsychiatric syndrome	10037176	Psychiatric disorders NEC	2
+10049989	Agitation postoperative	10002861	Anxiety disorders and symptoms	2
+10049988	Anxiety postoperative	10002861	Anxiety disorders and symptoms	2
+10049986	Mental status changes postoperative	10037176	Psychiatric disorders NEC	2
+10049215	Psychomotor skills impaired	10029305	Neurological disorders NEC	3
+10036437	Posturing	10028037	Movement disorders (incl parkinsonism)	3
+10041010	Sleep terror	10040991	Sleep disorders and disturbances	3
+10058504	Ballismus	10028037	Movement disorders (incl parkinsonism)	3
+10069099	Holmes tremor	10028037	Movement disorders (incl parkinsonism)	3
+10070669	Postictal psychosis	10039911	Seizures (incl subtypes)	3
+10041045	Slow response to stimuli	10029305	Neurological disorders NEC	3
+10070637	Emetophobia	10002861	Anxiety disorders and symptoms	2
+10070639	Nonketotic hyperglycinaemia	10039911	Seizures (incl subtypes)	3
+10056264	Obsessive rumination	10013511	Disturbances in thinking and perception	2
+10052792	"Schizophrenia, undifferentiated type"	10039628	Schizophrenia and other psychotic disorders	2
+10056392	Perinatal brain damage	10037176	Psychiatric disorders NEC	2
+10056610	Pseudoangina	10002861	Anxiety disorders and symptoms	2
+10058460	Bacterial labyrinthitis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10069116	Tetrahydrobiopterin deficiency	10057167	Mental impairment disorders	1
+10069116	Tetrahydrobiopterin deficiency	10009841	Cognitive and attention disorders and disturbances	1
+10069118	Gross motor delay	10028037	Movement disorders (incl parkinsonism)	3
+10070530	Benign rolandic epilepsy	10039911	Seizures (incl subtypes)	3
+10049460	Abasia	10029305	Neurological disorders NEC	3
+10049037	Coma acidotic	10029305	Neurological disorders NEC	3
+10048744	Fear of falling	10002861	Anxiety disorders and symptoms	2
+10070563	Cerebellar mutism	10029305	Neurological disorders NEC	3
+10058486	Glabellar reflex abnormal	10029305	Neurological disorders NEC	3
+10058605	Poor sucking reflex	10029305	Neurological disorders NEC	3
+10054895	Baltic myoclonic epilepsy	10012272	Dementia and amnestic conditions	1
+10048803	Hypoglycaemic seizure	10039911	Seizures (incl subtypes)	3
+10048871	Sensory integrative dysfunction	10029305	Neurological disorders NEC	3
+10048845	Hemiapraxia	10009841	Cognitive and attention disorders and disturbances	1
+10071323	Neuropsychiatric syndrome	10029305	Neurological disorders NEC	3
+10051290	Central nervous system lesion	10029305	Neurological disorders NEC	3
+10051990	Cortical laminar necrosis	10029305	Neurological disorders NEC	3
+10051696	Metastases to meninges	10029305	Neurological disorders NEC	3
+10051674	Metastases to peripheral nervous system	10029305	Neurological disorders NEC	3
+10053632	Reactive psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10041467	Speech disorder developmental	10029305	Neurological disorders NEC	3
+10071081	Idiopathic generalised epilepsy	10039911	Seizures (incl subtypes)	3
+10071082	Juvenile myoclonic epilepsy	10039911	Seizures (incl subtypes)	3
+10071059	Auditory perseveration	10029305	Neurological disorders NEC	3
+10070997	Korsakoff's syndrome	10012272	Dementia and amnestic conditions	1
+10070997	Korsakoff's syndrome	10012272	Dementia and amnestic conditions	1
+10071070	Autophobia	10002861	Anxiety disorders and symptoms	2
+10054937	Central nervous system mass	10029305	Neurological disorders NEC	3
+10023567	Labyrinthitis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10023567	Labyrinthitis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10070883	Alien limb syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10050256	Dysstasia	10029305	Neurological disorders NEC	3
+10070302	Motor developmental delay	10028037	Movement disorders (incl parkinsonism)	3
+10069760	Norrie's disease	10057167	Mental impairment disorders	1
+10069760	Norrie's disease	10009841	Cognitive and attention disorders and disturbances	1
+10071048	Seizure like phenomena	10039911	Seizures (incl subtypes)	3
+10050013	Abulia	10029305	Neurological disorders NEC	3
+10051224	Akinaesthesia	10029305	Neurological disorders NEC	3
+10050100	Application site hyperaesthesia	10029305	Neurological disorders NEC	3
+10050103	Application site paraesthesia	10029305	Neurological disorders NEC	3
+10053643	Neurodegenerative disorder	10029305	Neurological disorders NEC	3
+10054797	Subdural effusion	10029305	Neurological disorders NEC	3
+10050740	Inability to crawl	10029305	Neurological disorders NEC	3
+10050095	Ochlophobia	10002861	Anxiety disorders and symptoms	2
+10050095	Ochlophobia	10002861	Anxiety disorders and symptoms	2
+10050820	Oral dysaesthesia	10029305	Neurological disorders NEC	3
+10050820	Oral dysaesthesia	10029305	Neurological disorders NEC	3
+10050096	Phagophobia	10002861	Anxiety disorders and symptoms	2
+10050096	Phagophobia	10002861	Anxiety disorders and symptoms	2
+10051171	Tonic clonic movements	10039911	Seizures (incl subtypes)	3
+10070754	Inner ear infarction	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10056395	Brief psychotic disorder without marked stressors	10039628	Schizophrenia and other psychotic disorders	2
+10056557	Gulf war syndrome	10029305	Neurological disorders NEC	3
+10049708	Feeling guilty	10012375	Depressed mood disorders and disturbances	2
+10056326	Transient psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10049977	Intracranial hypotension	10029305	Neurological disorders NEC	3
+10071434	Biotinidase deficiency	10039911	Seizures (incl subtypes)	3
+10071263	Compulsive handwashing	10002861	Anxiety disorders and symptoms	2
+10071324	Postictal depression	10039911	Seizures (incl subtypes)	3
+10071350	Seizure cluster	10039911	Seizures (incl subtypes)	3
+10071552	Hyporesponsive to stimuli	10029305	Neurological disorders NEC	3
+10071394	Hyperglycaemic seizure	10039911	Seizures (incl subtypes)	3
+10071545	Early infantile epileptic encephalopathy with burst-suppression	10039911	Seizures (incl subtypes)	3
+10048868	Parkinsonian crisis	10028037	Movement disorders (incl parkinsonism)	3
+10049119	Emotional distress	10027946	Mood disorders and disturbances NEC	2
+10063164	Vestibular ischaemia	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10069917	Orthostatic tremor	10028037	Movement disorders (incl parkinsonism)	3
+10059626	Fahr's disease	10012272	Dementia and amnestic conditions	1
+10056677	Nerve degeneration	10029305	Neurological disorders NEC	3
+10058119	Neurogenic shock	10029305	Neurological disorders NEC	3
+10012271	Dementia Alzheimer's type	10057167	Mental impairment disorders	1
+10012271	Dementia Alzheimer's type	10012272	Dementia and amnestic conditions	1
+10071571	Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infection	10029305	Neurological disorders NEC	3
+10071571	Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infection	10002861	Anxiety disorders and symptoms	2
+10071299	Slow speech	10029305	Neurological disorders NEC	3
+10049989	Agitation postoperative	10029305	Neurological disorders NEC	3
+10049987	Confusion postoperative	10012221	Deliria (incl confusion)	1
+10059612	Tobacco withdrawal symptoms	10037176	Psychiatric disorders NEC	2
+10057852	Nicotine dependence	10037176	Psychiatric disorders NEC	2
+10039966	Senile dementia	10012272	Dementia and amnestic conditions	1
+10014557	Emotional poverty	10027946	Mood disorders and disturbances NEC	2
+10012267	Dementia	10012272	Dementia and amnestic conditions	1
+10039626	Schizophrenia	10039628	Schizophrenia and other psychotic disorders	2
+10051780	Hypoaesthesia teeth	10029305	Neurological disorders NEC	3
+10051660	Intranasal paraesthesia	10029305	Neurological disorders NEC	3
+10059393	Hoigne's syndrome	10029305	Neurological disorders NEC	3
+10059801	Meningocele acquired	10029305	Neurological disorders NEC	3
+10059282	Metastases to central nervous system	10029305	Neurological disorders NEC	3
+10019063	Hallucination	10013511	Disturbances in thinking and perception	2
+10061920	Psychotic disorder	10039628	Schizophrenia and other psychotic disorders	2
+10052794	Panic disorder with agoraphobia	10002861	Anxiety disorders and symptoms	2
+10052544	Paraesthesia of genital male	10029305	Neurological disorders NEC	3
+10061621	Adjustment disorder	10001302	Adjustment disorders (incl subtypes)	2
+10029202	Nervous system disorder	10029305	Neurological disorders NEC	3
+10049642	Man-in-the-barrel syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10049679	Spinal shock	10028037	Movement disorders (incl parkinsonism)	3
+10071243	Parkinsonism hyperpyrexia syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10012335	Dependence	10037176	Psychiatric disorders NEC	2
+10001606	Alcohol problem	10037176	Psychiatric disorders NEC	2
+10061284	Mental disorder	10037176	Psychiatric disorders NEC	2
+10070912	Pharyngeal dyskinesia	10028037	Movement disorders (incl parkinsonism)	3
+10054895	Baltic myoclonic epilepsy	10039911	Seizures (incl subtypes)	3
+10061285	Mental disorder due to a general medical condition	10037176	Psychiatric disorders NEC	2
+10071573	Susac's syndrome	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10062645	Hysterical psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10061040	Childhood psychosis	10039628	Schizophrenia and other psychotic disorders	2
+10061862	Neonatal complications of substance abuse	10037176	Psychiatric disorders NEC	2
+10070883	Alien limb syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10054964	Dysphemia	10029305	Neurological disorders NEC	3
+10053214	Fontanelle depressed	10029305	Neurological disorders NEC	3
+10054197	Gait deviation	10029305	Neurological disorders NEC	3
+10054030	Lafora's myoclonic epilepsy	10039911	Seizures (incl subtypes)	3
+10054859	Myoclonic epilepsy	10039911	Seizures (incl subtypes)	3
+10056209	Partial seizures with secondary generalisation	10039911	Seizures (incl subtypes)	3
+10061921	Psychotic disorder due to a general medical condition	10039628	Schizophrenia and other psychotic disorders	2
+10062177	VIIIth nerve lesion	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10062177	VIIIth nerve lesion	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10062177	VIIIth nerve lesion	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10062177	VIIIth nerve lesion	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10050373	Paresis anal sphincter	10028037	Movement disorders (incl parkinsonism)	3
+10071359	Congenital hemiparesis	10028037	Movement disorders (incl parkinsonism)	3
+10054786	Skin burning sensation	10029305	Neurological disorders NEC	3
+10056347	Alcoholic seizure	10039911	Seizures (incl subtypes)	3
+10056699	Atypical benign partial epilepsy	10039911	Seizures (incl subtypes)	3
+10029350	Neurotoxicity	10029305	Neurological disorders NEC	3
+10061281	Meningeal disorder	10029305	Neurological disorders NEC	3
+10063162	Acoustic neuritis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10063162	Acoustic neuritis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10063162	Acoustic neuritis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10063162	Acoustic neuritis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10063554	Hyperglycaemic hyperosmolar nonketotic syndrome	10029305	Neurological disorders NEC	3
+10063385	Intellectualisation	10013511	Disturbances in thinking and perception	2
+10063663	Neuropsychiatric lupus	10037176	Psychiatric disorders NEC	2
+10042209	Stress	10002861	Anxiety disorders and symptoms	2
+10036631	Presenile dementia	10012272	Dementia and amnestic conditions	1
+10036631	Presenile dementia	10057167	Mental impairment disorders	1
+10064010	Brudzinski's sign	10029305	Neurological disorders NEC	3
+10056696	Gaze palsy	10029305	Neurological disorders NEC	3
+10057371	Hypoaesthesia oral	10029305	Neurological disorders NEC	3
+10057332	Loss of proprioception	10029305	Neurological disorders NEC	3
+10057372	Paraesthesia oral	10029305	Neurological disorders NEC	3
+10056676	Phobia of driving	10002861	Anxiety disorders and symptoms	2
+10036376	Post herpetic neuralgia	10029305	Neurological disorders NEC	3
+10051602	Laziness	10027946	Mood disorders and disturbances NEC	2
+10061431	Glial scar	10029305	Neurological disorders NEC	3
+10061265	Learning disorder	10009841	Cognitive and attention disorders and disturbances	1
+10061287	Metastases to nervous system	10029305	Neurological disorders NEC	3
+10061296	Motor dysfunction	10029305	Neurological disorders NEC	3
+10054196	Affect lability	10027946	Mood disorders and disturbances NEC	2
+10057946	Noctiphobia	10002861	Anxiety disorders and symptoms	2
+10057946	Noctiphobia	10002861	Anxiety disorders and symptoms	2
+10058469	Paraesthesia of genital female	10029305	Neurological disorders NEC	3
+10022523	Intentional overdose	10037176	Psychiatric disorders NEC	2
+10062764	Multiple drug overdose intentional	10037176	Psychiatric disorders NEC	2
+10061551	Spinocerebellar disorder	10029305	Neurological disorders NEC	3
+10054089	Depressive symptom	10012375	Depressed mood disorders and disturbances	2
+10071390	Resting tremor	10028037	Movement disorders (incl parkinsonism)	3
+10071663	Peripheral nerve paresis	10028037	Movement disorders (incl parkinsonism)	3
+10059497	Coma neonatal	10029305	Neurological disorders NEC	3
+10059923	Pharyngeal hypoaesthesia	10029305	Neurological disorders NEC	3
+10061423	Amnestic disorder	10012272	Dementia and amnestic conditions	1
+10006784	Burning sensation	10029305	Neurological disorders NEC	3
+10010904	Convulsion	10039911	Seizures (incl subtypes)	3
+10015037	Epilepsy	10039911	Seizures (incl subtypes)	3
+10016275	Fear	10002861	Anxiety disorders and symptoms	2
+10012557	Developmental coordination disorder	10029305	Neurological disorders NEC	3
+10053195	"Delusional disorder, persecutory type"	10039628	Schizophrenia and other psychotic disorders	2
+10064805	Tachyphrenia	10013511	Disturbances in thinking and perception	2
+10029223	Neuralgia	10029305	Neurological disorders NEC	3
+10029864	Nystagmus	10029305	Neurological disorders NEC	3
+10052452	Osteoporosis-pseudoglioma syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10052452	Osteoporosis-pseudoglioma syndrome	10057167	Mental impairment disorders	1
+10051478	Proctoparalysis	10028037	Movement disorders (incl parkinsonism)	3
+10065174	Fungal labyrinthitis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10062345	Congenital neurological disorder	10029305	Neurological disorders NEC	3
+10062684	Somatic hallucination	10013511	Disturbances in thinking and perception	2
+10062824	"Hallucination, synaesthetic"	10013511	Disturbances in thinking and perception	2
+10063117	Paroxysmal perceptual alteration	10013511	Disturbances in thinking and perception	2
+10063559	Acute vestibular syndrome	10029305	Neurological disorders NEC	3
+10056454	Cupulolithiasis	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10003791	Aura	10029305	Neurological disorders NEC	3
+10012650	Diabetic coma	10029305	Neurological disorders NEC	3
+10033666	Panic disorder	10002861	Anxiety disorders and symptoms	2
+10002091	Anaesthesia	10029305	Neurological disorders NEC	3
+10064199	Variant Creutzfeldt-Jakob disease	10012272	Dementia and amnestic conditions	1
+10061991	Grimacing	10029305	Neurological disorders NEC	3
+10060819	Myxoedema coma	10029305	Neurological disorders NEC	3
+10056437	Parkinsonian rest tremor	10028037	Movement disorders (incl parkinsonism)	3
+10054808	Peripheral paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10064478	Conduct disorder	10009841	Cognitive and attention disorders and disturbances	1
+10065040	AIDS dementia complex	10012272	Dementia and amnestic conditions	1
+10010947	Coordination abnormal	10029305	Neurological disorders NEC	3
+10058672	Negative thoughts	10012375	Depressed mood disorders and disturbances	2
+10053925	Trisomy 17	10009841	Cognitive and attention disorders and disturbances	1
+10053925	Trisomy 17	10057167	Mental impairment disorders	1
+10053884	Trisomy 18	10009841	Cognitive and attention disorders and disturbances	1
+10053884	Trisomy 18	10057167	Mental impairment disorders	1
+10047386	Vestibular disorder	10029305	Neurological disorders NEC	3
+10049848	Balance disorder	10029305	Neurological disorders NEC	3
+10012672	Diabetic ketoacidotic hyperglycaemic coma	10029305	Neurological disorders NEC	3
+10037521	Pupillary disorder	10029305	Neurological disorders NEC	3
+10040026	Sensory disturbance	10029305	Neurological disorders NEC	3
+10033780	Paraesthesia mucosal	10029305	Neurological disorders NEC	3
+10013675	"Drug dependence, antepartum"	10037176	Psychiatric disorders NEC	2
+10013676	"Drug dependence, postpartum"	10037176	Psychiatric disorders NEC	2
+10065127	Membranous lipodystrophy	10012272	Dementia and amnestic conditions	1
+10063292	Brain stem syndrome	10029305	Neurological disorders NEC	3
+10063354	Charles Bonnet syndrome	10013511	Disturbances in thinking and perception	2
+10056715	Laurence-Moon-Bardet-Biedl syndrome	10057167	Mental impairment disorders	1
+10056715	Laurence-Moon-Bardet-Biedl syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10057333	Micrographia	10028037	Movement disorders (incl parkinsonism)	3
+10056300	Pseudoparalysis	10028037	Movement disorders (incl parkinsonism)	3
+10056323	Somatoform disorder neurologic	10028037	Movement disorders (incl parkinsonism)	3
+10057268	Spinal cord paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10065679	Intentional drug misuse	10037176	Psychiatric disorders NEC	2
+10063395	Dural tear	10029305	Neurological disorders NEC	3
+10063663	Neuropsychiatric lupus	10029305	Neurological disorders NEC	3
+10014551	Emotional disorder	10027946	Mood disorders and disturbances NEC	2
+10061536	Parkinson's disease	10028037	Movement disorders (incl parkinsonism)	3
+10001443	Affective disorder	10027946	Mood disorders and disturbances NEC	2
+10065617	Psychosis postoperative	10039628	Schizophrenia and other psychotic disorders	2
+10059267	Delirium febrile	10012221	Deliria (incl confusion)	1
+10064060	Multiple system atrophy	10029305	Neurological disorders NEC	3
+10060860	Neurological symptom	10029305	Neurological disorders NEC	3
+10060765	Osmophobia	10002861	Anxiety disorders and symptoms	2
+10061334	Partial seizures	10039911	Seizures (incl subtypes)	3
+10061334	Partial seizures	10039911	Seizures (incl subtypes)	3
+10012239	Delusion	10013511	Disturbances in thinking and perception	2
+10033799	Paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10027940	Mood altered	10027946	Mood disorders and disturbances NEC	2
+10027940	Mood altered	10027946	Mood disorders and disturbances NEC	2
+10021567	Impulsive behaviour	10021563	Impulse control disorders NEC	2
+10057230	Post concussion syndrome	10029305	Neurological disorders NEC	3
+10062665	Dysaesthesia pharynx	10029305	Neurological disorders NEC	3
+10062654	Foaming at mouth	10029305	Neurological disorders NEC	3
+10047386	Vestibular disorder	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10064987	Leukaemic infiltration brain	10029305	Neurological disorders NEC	3
+10061910	Parasomnia	10040991	Sleep disorders and disturbances	3
+10028035	Movement disorder	10028037	Movement disorders (incl parkinsonism)	3
+10036173	Poriomania	10021563	Impulse control disorders NEC	2
+10060904	Freezing phenomenon	10028037	Movement disorders (incl parkinsonism)	3
+10065784	Central nervous system necrosis	10029305	Neurological disorders NEC	3
+10063546	Nosophobia	10002861	Anxiety disorders and symptoms	2
+10063546	Nosophobia	10002861	Anxiety disorders and symptoms	2
+10017577	Gait disturbance	10029305	Neurological disorders NEC	3
+10063783	Implant site paraesthesia	10029305	Neurological disorders NEC	3
+10063534	Ocular dysmetria	10029305	Neurological disorders NEC	3
+10061215	Impulse-control disorder	10021563	Impulse control disorders NEC	2
+10061524	Inner ear disorder	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10062494	Necromania	10021563	Impulse control disorders NEC	2
+10061613	Abnormal sleep-related event	10040991	Sleep disorders and disturbances	3
+10064332	Complex regional pain syndrome	10029305	Neurological disorders NEC	3
+10064140	Hand-arm vibration syndrome	10029305	Neurological disorders NEC	3
+10063033	Depressive delusion	10013511	Disturbances in thinking and perception	2
+10010650	Congenital torticollis	10028037	Movement disorders (incl parkinsonism)	3
+10016165	Failure to thrive	10037176	Psychiatric disorders NEC	2
+10018075	Generalised anxiety disorder	10002861	Anxiety disorders and symptoms	2
+10064420	Photaugiaphobia	10002861	Anxiety disorders and symptoms	2
+10063894	Sudden unexplained death in epilepsy	10039911	Seizures (incl subtypes)	3
+10064155	Traumatic coma	10029305	Neurological disorders NEC	3
+10064723	Thanatophobia	10002861	Anxiety disorders and symptoms	2
+10064723	Thanatophobia	10002861	Anxiety disorders and symptoms	2
+10027175	Memory impairment	10057167	Mental impairment disorders	1
+10029289	Neurologic neglect syndrome	10029305	Neurological disorders NEC	3
+10065952	Hyperpathia	10029305	Neurological disorders NEC	3
+10064012	Central pain syndrome	10029305	Neurological disorders NEC	3
+10065044	Apparent life threatening event	10029305	Neurological disorders NEC	3
+10065497	Infusion site anaesthesia	10029305	Neurological disorders NEC	3
+10065485	Infusion site paraesthesia	10029305	Neurological disorders NEC	3
+10065428	Acrotrophodynia	10029305	Neurological disorders NEC	3
+10065165	Central auditory processing disorder	10009841	Cognitive and attention disorders and disturbances	1
+10036436	Posture abnormal	10029305	Neurological disorders NEC	3
+10039198	Risus sardonicus	10028037	Movement disorders (incl parkinsonism)	3
+10001084	Acute stress disorder	10002861	Anxiety disorders and symptoms	2
+10002859	Anxiety disorder due to a general medical condition	10002861	Anxiety disorders and symptoms	2
+10063540	Schinzel-Giedion syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10063540	Schinzel-Giedion syndrome	10057167	Mental impairment disorders	1
+10014566	Emprosthotonus	10028037	Movement disorders (incl parkinsonism)	3
+10063661	Vascular encephalopathy	10012272	Dementia and amnestic conditions	1
+10038708	Respiratory paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10038708	Respiratory paralysis	10028037	Movement disorders (incl parkinsonism)	3
+10063935	Kabuki make-up syndrome	10057167	Mental impairment disorders	1
+10063935	Kabuki make-up syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10063559	Acute vestibular syndrome	10022396	Inner ear and VIIIth cranial nerve disorders	3
+10035628	Pleurothotonus	10028037	Movement disorders (incl parkinsonism)	3
+10064862	Frustration	10027946	Mood disorders and disturbances NEC	2
+10064063	CHARGE syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10064063	CHARGE syndrome	10057167	Mental impairment disorders	1
+10064950	Head titubation	10028037	Movement disorders (incl parkinsonism)	3
+10039660	School refusal	10037176	Psychiatric disorders NEC	2
+10040979	Sleep apnoea syndrome	10040991	Sleep disorders and disturbances	3
+10066142	Sandifer's syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10065701	Dermatillomania	10021563	Impulse control disorders NEC	2
+10001496	Agitated depression	10012375	Depressed mood disorders and disturbances	2
+10042458	Suicidal ideation	10042460	Suicidal and self-injurious behaviours NEC	2
+10065085	Loss of dreaming	10040991	Sleep disorders and disturbances	3
+10057678	Vascular dementia	10057167	Mental impairment disorders	1
+10053877	Congenital oculomotor apraxia	10029305	Neurological disorders NEC	3
+10057315	Daydreaming	10009841	Cognitive and attention disorders and disturbances	1
+10058709	Sopor	10040991	Sleep disorders and disturbances	3
+10067022	Hemisensory neglect	10029305	Neurological disorders NEC	3
+10010305	Confusional state	10029305	Neurological disorders NEC	3
+10067672	Spasmodic dysphonia	10028037	Movement disorders (incl parkinsonism)	3
+10030071	Oculogyric crisis	10028037	Movement disorders (incl parkinsonism)	3
+10067371	Menopausal depression	10012375	Depressed mood disorders and disturbances	2
+10067530	Hyposomnia	10040991	Sleep disorders and disturbances	3
+10043431	Thinking abnormal	10029305	Neurological disorders NEC	3
+10067889	Dementia with Lewy bodies	10057167	Mental impairment disorders	1
+10067866	Benign familial neonatal convulsions	10039911	Seizures (incl subtypes)	3
+10067954	Oromandibular dystonia	10028037	Movement disorders (incl parkinsonism)	3
+10001423	Advanced sleep phase	10040991	Sleep disorders and disturbances	3
+10001423	Advanced sleep phase	10040991	Sleep disorders and disturbances	3
+10001423	Advanced sleep phase	10040991	Sleep disorders and disturbances	3
+10001423	Advanced sleep phase	10040991	Sleep disorders and disturbances	3
+10001596	Alcohol induced persisting dementia	10057167	Mental impairment disorders	1
+10036309	Post-traumatic amnestic disorder	10057167	Mental impairment disorders	1
+10020767	Hypersomnia related to another mental condition	10040991	Sleep disorders and disturbances	3
+10022443	Insomnia related to another mental condition	10040991	Sleep disorders and disturbances	3
+10008398	Change in sustained attention	10009841	Cognitive and attention disorders and disturbances	1
+10013496	Disturbance in attention	10057167	Mental impairment disorders	1
+10013496	Disturbance in attention	10009841	Cognitive and attention disorders and disturbances	1
+10068346	Anosognosia	10029305	Neurological disorders NEC	3
+10068631	Childhood depression	10012375	Depressed mood disorders and disturbances	2
+10006344	Breathing-related sleep disorder	10040991	Sleep disorders and disturbances	3
+10014552	Emotional disorder of childhood	10037176	Psychiatric disorders NEC	2
+10029343	Neurotic disorder of childhood	10037176	Psychiatric disorders NEC	2
+10034723	Personality disorder of childhood	10037176	Psychiatric disorders NEC	2
+10009191	Circadian rhythm sleep disorder	10040991	Sleep disorders and disturbances	3
+10009191	Circadian rhythm sleep disorder	10040991	Sleep disorders and disturbances	3
+10009191	Circadian rhythm sleep disorder	10040991	Sleep disorders and disturbances	3
+10009191	Circadian rhythm sleep disorder	10040991	Sleep disorders and disturbances	3
+10010144	Completed suicide	10042460	Suicidal and self-injurious behaviours NEC	2
+10040985	"Sleep disorder due to general medical condition, hypersomnia type"	10040991	Sleep disorders and disturbances	3
+10040986	"Sleep disorder due to general medical condition, insomnia type"	10040991	Sleep disorders and disturbances	3
+10040987	"Sleep disorder due to general medical condition, mixed type"	10040991	Sleep disorders and disturbances	3
+10040988	"Sleep disorder due to general medical condition, parasomnia type"	10040991	Sleep disorders and disturbances	3
+10018659	Grand mal convulsion	10039911	Seizures (incl subtypes)	3
+10010911	Convulsion neonatal	10039911	Seizures (incl subtypes)	3
+10012209	Delayed sleep phase	10040991	Sleep disorders and disturbances	3
+10012209	Delayed sleep phase	10040991	Sleep disorders and disturbances	3
+10012209	Delayed sleep phase	10040991	Sleep disorders and disturbances	3
+10012209	Delayed sleep phase	10040991	Sleep disorders and disturbances	3
+10012397	Depression suicidal	10012375	Depressed mood disorders and disturbances	2
+10019194	Head discomfort	10029305	Neurological disorders NEC	3
+10041003	Sleep phase rhythm disturbance	10040991	Sleep disorders and disturbances	3
+10041003	Sleep phase rhythm disturbance	10040991	Sleep disorders and disturbances	3
+10041003	Sleep phase rhythm disturbance	10040991	Sleep disorders and disturbances	3
+10041003	Sleep phase rhythm disturbance	10040991	Sleep disorders and disturbances	3
+10013576	Dizziness exertional	10029305	Neurological disorders NEC	3
+10013578	Dizziness postural	10029305	Neurological disorders NEC	3
+10037211	Psychomotor hyperactivity	10029305	Neurological disorders NEC	3
+10037211	Psychomotor hyperactivity	10029305	Neurological disorders NEC	3
+10023236	Judgement impaired	10057167	Mental impairment disorders	1
+10022517	Intelligence increased	10029305	Neurological disorders NEC	3
+10022524	Intentional self-injury	10042460	Suicidal and self-injurious behaviours NEC	2
+10022995	Irregular sleep phase	10040991	Sleep disorders and disturbances	3
+10022995	Irregular sleep phase	10040991	Sleep disorders and disturbances	3
+10022995	Irregular sleep phase	10040991	Sleep disorders and disturbances	3
+10022995	Irregular sleep phase	10040991	Sleep disorders and disturbances	3
+10041350	Somnolence neonatal	10040991	Sleep disorders and disturbances	3
+10036419	Postpartum neurosis	10002861	Anxiety disorders and symptoms	2
+10068889	Schizoaffective disorder bipolar type	10039628	Schizophrenia and other psychotic disorders	2
+10068855	Symbolic dysfunction	10029305	Neurological disorders NEC	3
+10068968	Frontotemporal dementia	10057167	Mental impairment disorders	1
+10068768	Cerebellar cognitive affective syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10068932	Terminal insomnia	10040991	Sleep disorders and disturbances	3
+10069149	Minor cognitive motor disorder	10009841	Cognitive and attention disorders and disturbances	1
+10068890	Schizoaffective disorder depressive type	10039628	Schizophrenia and other psychotic disorders	2
+10044380	Transient global amnesia	10057167	Mental impairment disorders	1
+10070246	Executive dysfunction	10009841	Cognitive and attention disorders and disturbances	1
+10070606	Post stroke depression	10012375	Depressed mood disorders and disturbances	2
+10070635	Gait apraxia	10029305	Neurological disorders NEC	3
+10070668	Huntington's disease	10028037	Movement disorders (incl parkinsonism)	3
+10048845	Hemiapraxia	10029305	Neurological disorders NEC	3
+10070997	Korsakoff's syndrome	10057167	Mental impairment disorders	1
+10070997	Korsakoff's syndrome	10057167	Mental impairment disorders	1
+10051154	Self-injurious ideation	10042460	Suicidal and self-injurious behaviours NEC	2
+10071324	Postictal depression	10012375	Depressed mood disorders and disturbances	2
+10052393	Borderline mental impairment	10057167	Mental impairment disorders	1
+10052393	Borderline mental impairment	10009841	Cognitive and attention disorders and disturbances	1
+10049987	Confusion postoperative	10029305	Neurological disorders NEC	3
+10052391	Convulsion in childhood	10039911	Seizures (incl subtypes)	3
+10012390	Depression postoperative	10012375	Depressed mood disorders and disturbances	2
+10053238	Amimia	10029305	Neurological disorders NEC	3
+10053712	Hypersomnia-bulimia syndrome	10040991	Sleep disorders and disturbances	3
+10057668	Cognitive disorder	10057167	Mental impairment disorders	1
+10057668	Cognitive disorder	10009841	Cognitive and attention disorders and disturbances	1
+10056394	Postpartum stress disorder	10002861	Anxiety disorders and symptoms	2
+10061423	Amnestic disorder	10057167	Mental impairment disorders	1
+10039966	Senile dementia	10057167	Mental impairment disorders	1
+10029333	Neurosis	10002861	Anxiety disorders and symptoms	2
+10040984	Sleep disorder	10040991	Sleep disorders and disturbances	3
+10008748	Chorea	10028037	Movement disorders (incl parkinsonism)	3
+10012267	Dementia	10057167	Mental impairment disorders	1
+10061533	Myotonia	10028037	Movement disorders (incl parkinsonism)	3
+10061827	Dyssomnia	10040991	Sleep disorders and disturbances	3
+10027353	Mental disability	10057167	Mental impairment disorders	1
+10027353	Mental disability	10009841	Cognitive and attention disorders and disturbances	1
+10027374	Mental impairment	10057167	Mental impairment disorders	1
+10027374	Mental impairment	10009841	Cognitive and attention disorders and disturbances	1
+10057840	Major depression	10012375	Depressed mood disorders and disturbances	2
+10061129	Eye movement disorder	10029305	Neurological disorders NEC	3
+10062519	Poor quality sleep	10040991	Sleep disorders and disturbances	3
+10061010	Binocular eye movement disorder	10029305	Neurological disorders NEC	3
+10061010	Binocular eye movement disorder	10029305	Neurological disorders NEC	3
+10062839	Cerebrospinal fluid rhinorrhoea	10029305	Neurological disorders NEC	3
+10063495	Self injurious behaviour	10042460	Suicidal and self-injurious behaviours NEC	2
+10063968	Upper airway resistance syndrome	10040991	Sleep disorders and disturbances	3
+10064199	Variant Creutzfeldt-Jakob disease	10057167	Mental impairment disorders	1
+10064062	Neurodevelopmental disorder	10057167	Mental impairment disorders	1
+10063910	Sleep disorder due to a general medical condition	10040991	Sleep disorders and disturbances	3
+10065040	AIDS dementia complex	10057167	Mental impairment disorders	1
+10064600	Periodic limb movement disorder	10040991	Sleep disorders and disturbances	3
+10064805	Tachyphrenia	10057167	Mental impairment disorders	1
+10065657	Paroxysmal choreoathetosis	10028037	Movement disorders (incl parkinsonism)	3
+10065657	Paroxysmal choreoathetosis	10028037	Movement disorders (incl parkinsonism)	3
+10065127	Membranous lipodystrophy	10057167	Mental impairment disorders	1
+10065658	Mount-Reback syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10065658	Mount-Reback syndrome	10028037	Movement disorders (incl parkinsonism)	3
+10065604	Suicidal behaviour	10042460	Suicidal and self-injurious behaviours NEC	2
+10065165	Central auditory processing disorder	10029305	Neurological disorders NEC	3
+10065369	Burnout syndrome	10002861	Anxiety disorders and symptoms	2

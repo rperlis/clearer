@@ -1,0 +1,185 @@
+PT_CODE	PT STR	HG CODE	HG STR	Category
+10027618	Mild mental retardation	10057167	Mental impairment disorders	1
+10027618	Mild mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10027791	Moderate mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10027791	Moderate mental retardation	10057167	Mental impairment disorders	1
+10040443	Severe mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10040443	Severe mental retardation	10057167	Mental impairment disorders	1
+10036791	Profound mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10036791	Profound mental retardation	10057167	Mental impairment disorders	1
+10056440	Oppositional defiant disorder	10009841	Cognitive and attention disorders and disturbances	1
+10037999	Reading disorder	10009841	Cognitive and attention disorders and disturbances	1
+10037999	Reading disorder	10009841	Cognitive and attention disorders and disturbances	1
+10036813	Progressive supranuclear palsy	10057167	Mental impairment disorders	1
+10001949	Amnesia	10012272	Dementia and amnestic conditions	1
+10048663	Agnosia	10009841	Cognitive and attention disorders and disturbances	1
+10001508	Agraphia	10009841	Cognitive and attention disorders and disturbances	1
+10001663	Alexia	10009841	Cognitive and attention disorders and disturbances	1
+10002948	Aphasia	10009841	Cognitive and attention disorders and disturbances	1
+10003062	Apraxia	10009841	Cognitive and attention disorders and disturbances	1
+10013932	Dyslexia	10009841	Cognitive and attention disorders and disturbances	1
+10001949	Amnesia	10057167	Mental impairment disorders	1
+10003805	Autism	10057167	Mental impairment disorders	1
+10012218	Delirium	10012221	Deliria (incl confusion)	1
+10023497	Kuru	10012272	Dementia and amnestic conditions	1
+10013932	Dyslexia	10009841	Cognitive and attention disorders and disturbances	1
+10052276	Pseudodementia	10012272	Dementia and amnestic conditions	1
+10034872	Phenylketonuria	10057167	Mental impairment disorders	1
+10034872	Phenylketonuria	10009841	Cognitive and attention disorders and disturbances	1
+10044688	Trisomy 21	10057167	Mental impairment disorders	1
+10044688	Trisomy 21	10009841	Cognitive and attention disorders and disturbances	1
+10002711	Anterograde amnesia	10012272	Dementia and amnestic conditions	1
+10011384	Creutzfeldt-Jakob disease	10012272	Dementia and amnestic conditions	1
+10013395	Disorientation	10012221	Deliria (incl confusion)	1
+10053878	Greig's syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10053878	Greig's syndrome	10057167	Mental impairment disorders	1
+10000346	Acalculia	10009841	Cognitive and attention disorders and disturbances	1
+10000346	Acalculia	10009841	Cognitive and attention disorders and disturbances	1
+10051498	Amusia	10009841	Cognitive and attention disorders and disturbances	1
+10012225	Delirium tremens	10012221	Deliria (incl confusion)	1
+10017324	Fragile X syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10017324	Fragile X syndrome	10057167	Mental impairment disorders	1
+10033848	Paramnesia	10012272	Dementia and amnestic conditions	1
+10038965	Retrograde amnesia	10012272	Dementia and amnestic conditions	1
+10049669	Dyscalculia	10009841	Cognitive and attention disorders and disturbances	1
+10049669	Dyscalculia	10009841	Cognitive and attention disorders and disturbances	1
+10013976	Dyspraxia	10009841	Cognitive and attention disorders and disturbances	1
+10048608	Gerstmann's syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10050638	Langer-Giedion syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10050638	Langer-Giedion syndrome	10057167	Mental impairment disorders	1
+10051707	Oculocerebrorenal syndrome	10057167	Mental impairment disorders	1
+10051707	Oculocerebrorenal syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10036476	Prader-Willi syndrome	10057167	Mental impairment disorders	1
+10036476	Prader-Willi syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10039281	Rubinstein-Taybi syndrome	10057167	Mental impairment disorders	1
+10039281	Rubinstein-Taybi syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10048676	Sjogren-Larsson syndrome	10057167	Mental impairment disorders	1
+10048676	Sjogren-Larsson syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10002711	Anterograde amnesia	10057167	Mental impairment disorders	1
+10011384	Creutzfeldt-Jakob disease	10057167	Mental impairment disorders	1
+10049066	Cohen syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10049066	Cohen syndrome	10057167	Mental impairment disorders	1
+10047913	Wernicke-Korsakoff syndrome	10012272	Dementia and amnestic conditions	1
+10047913	Wernicke-Korsakoff syndrome	10012272	Dementia and amnestic conditions	1
+10049644	Williams syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10049644	Williams syndrome	10057167	Mental impairment disorders	1
+10027175	Memory impairment	10012272	Dementia and amnestic conditions	1
+10059589	Dubowitz syndrome	10057167	Mental impairment disorders	1
+10059589	Dubowitz syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10017604	Galactosaemia	10009841	Cognitive and attention disorders and disturbances	1
+10017604	Galactosaemia	10057167	Mental impairment disorders	1
+10038965	Retrograde amnesia	10057167	Mental impairment disorders	1
+10029289	Neurologic neglect syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10044689	Trisomy 22	10057167	Mental impairment disorders	1
+10044689	Trisomy 22	10009841	Cognitive and attention disorders and disturbances	1
+10013486	Distractibility	10009841	Cognitive and attention disorders and disturbances	1
+10048816	Lennox-Gastaut syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10066842	Behavioural and psychiatric symptoms of dementia	10012272	Dementia and amnestic conditions	1
+10053841	Sneddon's syndrome	10012272	Dementia and amnestic conditions	1
+10067889	Dementia with Lewy bodies	10012272	Dementia and amnestic conditions	1
+10066430	Velo-cardio-facial syndrome	10057167	Mental impairment disorders	1
+10066430	Velo-cardio-facial syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10057678	Vascular dementia	10012272	Dementia and amnestic conditions	1
+10010305	Confusional state	10012221	Deliria (incl confusion)	1
+10050361	Wolf-Hirschhorn syndrome	10057167	Mental impairment disorders	1
+10050361	Wolf-Hirschhorn syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10047913	Wernicke-Korsakoff syndrome	10057167	Mental impairment disorders	1
+10047913	Wernicke-Korsakoff syndrome	10057167	Mental impairment disorders	1
+10050012	Bradyphrenia	10057167	Mental impairment disorders	1
+10012294	"Dementia of the Alzheimer's type, with delirium"	10057167	Mental impairment disorders	1
+10012294	"Dementia of the Alzheimer's type, with delirium"	10012272	Dementia and amnestic conditions	1
+10012295	"Dementia of the Alzheimer's type, with delusions"	10057167	Mental impairment disorders	1
+10012295	"Dementia of the Alzheimer's type, with delusions"	10012272	Dementia and amnestic conditions	1
+10012296	"Dementia of the Alzheimer's type, with depressed mood"	10057167	Mental impairment disorders	1
+10001596	Alcohol induced persisting dementia	10012272	Dementia and amnestic conditions	1
+10036309	Post-traumatic amnestic disorder	10012272	Dementia and amnestic conditions	1
+10012296	"Dementia of the Alzheimer's type, with depressed mood"	10012272	Dementia and amnestic conditions	1
+10012293	"Dementia of the Alzheimer's type, uncomplicated"	10012272	Dementia and amnestic conditions	1
+10012293	"Dementia of the Alzheimer's type, uncomplicated"	10057167	Mental impairment disorders	1
+10003746	Atypical attention deficit syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10003736	Attention deficit/hyperactivity disorder	10009841	Cognitive and attention disorders and disturbances	1
+10027378	Mental retardation	10009841	Cognitive and attention disorders and disturbances	1
+10027378	Mental retardation	10057167	Mental impairment disorders	1
+10068034	Adiposogenital dystrophy	10009841	Cognitive and attention disorders and disturbances	1
+10068034	Adiposogenital dystrophy	10057167	Mental impairment disorders	1
+10068346	Anosognosia	10009841	Cognitive and attention disorders and disturbances	1
+10011385	Cri du Chat syndrome	10057167	Mental impairment disorders	1
+10011385	Cri du Chat syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10068968	Frontotemporal dementia	10012272	Dementia and amnestic conditions	1
+10044380	Transient global amnesia	10012272	Dementia and amnestic conditions	1
+10017605	Galactose intolerance	10057167	Mental impairment disorders	1
+10017605	Galactose intolerance	10009841	Cognitive and attention disorders and disturbances	1
+10068855	Symbolic dysfunction	10009841	Cognitive and attention disorders and disturbances	1
+10069116	Tetrahydrobiopterin deficiency	10057167	Mental impairment disorders	1
+10069116	Tetrahydrobiopterin deficiency	10009841	Cognitive and attention disorders and disturbances	1
+10054895	Baltic myoclonic epilepsy	10012272	Dementia and amnestic conditions	1
+10048845	Hemiapraxia	10009841	Cognitive and attention disorders and disturbances	1
+10070997	Korsakoff's syndrome	10012272	Dementia and amnestic conditions	1
+10070997	Korsakoff's syndrome	10012272	Dementia and amnestic conditions	1
+10070883	Alien limb syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10069760	Norrie's disease	10057167	Mental impairment disorders	1
+10069760	Norrie's disease	10009841	Cognitive and attention disorders and disturbances	1
+10059626	Fahr's disease	10012272	Dementia and amnestic conditions	1
+10012271	Dementia Alzheimer's type	10057167	Mental impairment disorders	1
+10012271	Dementia Alzheimer's type	10012272	Dementia and amnestic conditions	1
+10049987	Confusion postoperative	10012221	Deliria (incl confusion)	1
+10039966	Senile dementia	10012272	Dementia and amnestic conditions	1
+10012267	Dementia	10012272	Dementia and amnestic conditions	1
+10036631	Presenile dementia	10012272	Dementia and amnestic conditions	1
+10036631	Presenile dementia	10057167	Mental impairment disorders	1
+10061265	Learning disorder	10009841	Cognitive and attention disorders and disturbances	1
+10061423	Amnestic disorder	10012272	Dementia and amnestic conditions	1
+10052452	Osteoporosis-pseudoglioma syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10052452	Osteoporosis-pseudoglioma syndrome	10057167	Mental impairment disorders	1
+10064199	Variant Creutzfeldt-Jakob disease	10012272	Dementia and amnestic conditions	1
+10064478	Conduct disorder	10009841	Cognitive and attention disorders and disturbances	1
+10065040	AIDS dementia complex	10012272	Dementia and amnestic conditions	1
+10053925	Trisomy 17	10009841	Cognitive and attention disorders and disturbances	1
+10053925	Trisomy 17	10057167	Mental impairment disorders	1
+10053884	Trisomy 18	10009841	Cognitive and attention disorders and disturbances	1
+10053884	Trisomy 18	10057167	Mental impairment disorders	1
+10065127	Membranous lipodystrophy	10012272	Dementia and amnestic conditions	1
+10056715	Laurence-Moon-Bardet-Biedl syndrome	10057167	Mental impairment disorders	1
+10056715	Laurence-Moon-Bardet-Biedl syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10059267	Delirium febrile	10012221	Deliria (incl confusion)	1
+10027175	Memory impairment	10057167	Mental impairment disorders	1
+10065165	Central auditory processing disorder	10009841	Cognitive and attention disorders and disturbances	1
+10063540	Schinzel-Giedion syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10063540	Schinzel-Giedion syndrome	10057167	Mental impairment disorders	1
+10063661	Vascular encephalopathy	10012272	Dementia and amnestic conditions	1
+10063935	Kabuki make-up syndrome	10057167	Mental impairment disorders	1
+10063935	Kabuki make-up syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10064063	CHARGE syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10064063	CHARGE syndrome	10057167	Mental impairment disorders	1
+10057678	Vascular dementia	10057167	Mental impairment disorders	1
+10057315	Daydreaming	10009841	Cognitive and attention disorders and disturbances	1
+10067889	Dementia with Lewy bodies	10057167	Mental impairment disorders	1
+10001596	Alcohol induced persisting dementia	10057167	Mental impairment disorders	1
+10036309	Post-traumatic amnestic disorder	10057167	Mental impairment disorders	1
+10008398	Change in sustained attention	10009841	Cognitive and attention disorders and disturbances	1
+10013496	Disturbance in attention	10057167	Mental impairment disorders	1
+10013496	Disturbance in attention	10009841	Cognitive and attention disorders and disturbances	1
+10023236	Judgement impaired	10057167	Mental impairment disorders	1
+10068968	Frontotemporal dementia	10057167	Mental impairment disorders	1
+10068768	Cerebellar cognitive affective syndrome	10009841	Cognitive and attention disorders and disturbances	1
+10069149	Minor cognitive motor disorder	10009841	Cognitive and attention disorders and disturbances	1
+10044380	Transient global amnesia	10057167	Mental impairment disorders	1
+10070246	Executive dysfunction	10009841	Cognitive and attention disorders and disturbances	1
+10070997	Korsakoff's syndrome	10057167	Mental impairment disorders	1
+10070997	Korsakoff's syndrome	10057167	Mental impairment disorders	1
+10052393	Borderline mental impairment	10057167	Mental impairment disorders	1
+10052393	Borderline mental impairment	10009841	Cognitive and attention disorders and disturbances	1
+10057668	Cognitive disorder	10057167	Mental impairment disorders	1
+10057668	Cognitive disorder	10009841	Cognitive and attention disorders and disturbances	1
+10061423	Amnestic disorder	10057167	Mental impairment disorders	1
+10039966	Senile dementia	10057167	Mental impairment disorders	1
+10012267	Dementia	10057167	Mental impairment disorders	1
+10027353	Mental disability	10057167	Mental impairment disorders	1
+10027353	Mental disability	10009841	Cognitive and attention disorders and disturbances	1
+10027374	Mental impairment	10057167	Mental impairment disorders	1
+10027374	Mental impairment	10009841	Cognitive and attention disorders and disturbances	1
+10064199	Variant Creutzfeldt-Jakob disease	10057167	Mental impairment disorders	1
+10064062	Neurodevelopmental disorder	10057167	Mental impairment disorders	1
+10065040	AIDS dementia complex	10057167	Mental impairment disorders	1
+10064805	Tachyphrenia	10057167	Mental impairment disorders	1
+10065127	Membranous lipodystrophy	10057167	Mental impairment disorders	1

@@ -4,16 +4,16 @@ import numpy
 import csv
 import operator
 import random
-from scipy.stats import ks_2samp
 from scipy.stats import stats
 import itertools
 import gzip
 import collections
 import re
+import os
 
 # CONSTANTS would go here, if any - eg, CONSTANT={'value1': num, 'value2':num2, etc.}
-FNAME_MED_TO_CID="static/label_mapping.tsv.gz"
-FNAME_CID_TO_AE="static/meddra_freq_parsed.tsv.gz"
+FNAME_MED_TO_CID=os.path.dirname(__file__)+"/static/label_mapping.tsv.gz"
+FNAME_CID_TO_AE=os.path.dirname(__file__)+"/static/meddra_freq_parsed.tsv.gz"
 
 def check_medlist(variables): 
     """
@@ -26,7 +26,7 @@ def check_medlist(variables):
 
 # take csv list passed of meds
     complist=[x.strip() for x in variables['Druglist'].replace('\n',',').split(',')]  
-
+    complist=filter(None,complist)
 # map to CID for lookup
 
     matcher_dict={}
@@ -39,16 +39,23 @@ def check_medlist(variables):
         medpairs=csv.reader(gzfile,delimiter='\t')    
         for row in medpairs:
 
-            if (row[0] in complist) or (row[1] in complist):
-                if not row[1] in matcher_dict :
+            if ((row[0] in complist) or (row[1] in complist)):
+                if (not row[1] in matcher_dict) and (not row[1] in matcheddrugs and not row[0] in matcheddrugs) :
                     matcher_dict[row[1]]= row[3]
                     backmatch_dict[row[3]]=row[1]
                     matcheddrugs.append(row[1])
                     matchedcid.append(row[3])
- 
+    print("matchedlist:",matcher_dict)
 # make aelist from comparator
-    if variables['Comparator']=="All CNS":
-        aelist=["Confusion","Delirium","Agitation"]
+    if variables['Comparator']=="Psychiatry":
+        aelist= load_aefilelist("CNS_psychiatric.txt")  
+    elif variables['Comparator']=="Cognition":
+        aelist=load_aefilelist("CNS_cognition.txt")
+    elif variables['Comparator']=="Other Neurologic":
+        aelist=load_aefilelist("CNS_other_neurologic.txt")
+    elif variables['Comparator']=="All CNS":
+        aelist=load_aefilelist("CNS_full.txt")
+        
     else : aelist=[variables['Comparator']]    
             
 # read in AE megafile - it's gzipped...
@@ -59,17 +66,21 @@ def check_medlist(variables):
     with gzip.open(FNAME_CID_TO_AE) as gzfile:
         drug_properties=csv.reader(gzfile,delimiter='\t')
         for row in drug_properties:
-            if row[9]=="PT" and not(row[5]=="placebo") :
+            if (row[9]=="PT" and not(row[5]=="placebo")) and not row[0]=='' :
                 # need to reassign frequencies (exact) to categories
                 freqtemp=row[6]
                    #postmarketing, rare, infrequent, frequent, or exact #
-                if freqtemp=="postmarketing": freqnum=.01
-                elif freqtemp=="rare": freqnum=.01
-                elif freqtemp=="infrequent": freqnum=.05
-                elif freqtemp=="frequent": freqnum=.25
-                elif freqtemp=="potential": freqnum=.001
-                elif "-" in freqtemp or "to" in freqtemp: freqnum=.01  #fix this!!
-                else : freqnum=float(freqtemp[:-1])/100
+                if variables['Option_1']==1:   
+                    if freqtemp=="postmarketing": freqnum=.01
+                    elif freqtemp=="rare": freqnum=.01
+                    elif freqtemp=="infrequent": freqnum=.05
+                    elif freqtemp=="frequent": freqnum=.25
+                    elif freqtemp=="potential": freqnum=.001
+                    elif "-" in freqtemp or "to" in freqtemp: freqnum=.01  #fix this!!
+                    else : freqnum=float(freqtemp[:-1])/100
+                else: 
+                    if freqtemp=="potential": freqnum=0
+                    else: freqnum=0.1 
                 if row[0] in property_dict:
                     if not(row[11] in property_dict[row[0]]):
                         property_dict[row[0]][row[11]]=freqnum
@@ -77,13 +88,26 @@ def check_medlist(variables):
                     property_dict[row[0]]={}
                     property_dict[row[0]][row[11]]=freqnum
                     
+    # now remove drugs which are not in dictionary
+    drug_not_in_dictionary=[]
+    for cid in matchedcid:
+        if not property_dict.has_key(cid): 
+            drug_not_in_dictionary.append(backmatch_dict[cid])
+            matchedcid.remove(cid)
+            matcheddrugs.remove(backmatch_dict[cid])
+                
     # now calculate burden score
     list_by_ae={}
     list_by_drug={}
+
     # loop over all AE's in list to query
+    print("***")
+    print("cid",matchedcid)
+    print("aelist",aelist)
     for cid in matchedcid:
         for ae in aelist:
-            if ae in property_dict[cid] :
+            if not property_dict.has_key(cid): drug_not_in_dictionary.append(backmatch_dict[cid])
+            elif ae in property_dict[cid] :
                 if ae in list_by_ae:
                     list_by_ae[ae][backmatch_dict[cid]]=property_dict[cid][ae]
                 else :
@@ -95,16 +119,16 @@ def check_medlist(variables):
                 else:
                     list_by_drug[backmatch_dict[cid]]={}
                     list_by_drug[backmatch_dict[cid]][ae]=property_dict[cid][ae] 
-
+    print("not_in_dict",drug_not_in_dictionary)
     
     #if we want to add a warning for high placebo rate, add it here.
     
     # now sum up freq burden or risk, by AE
+    print("show list_by_ae",list_by_ae)
     ae_score={}
-    for ae in aelist:
+    for ae in list_by_ae:
         aeburden=0
-        if ae in list_by_ae:
-            aeburden=sum(list_by_ae[ae].itervalues())
+        aeburden=sum(list_by_ae[ae].itervalues())
         ae_score[ae]=aeburden
         
     drug_score={}    
@@ -135,4 +159,18 @@ def check_medlist(variables):
         'ae_total':ae_total,
     }
 
+"""
+this function categorizes AE's and writes a new gz file
+"""
 
+def load_aefilelist (aelistfile):
+# take a text file of AE's, remap to a category-list, save a new gzipped file
+
+      # read in list of AE's to match - just a text file
+      # files from Victor - column 1 (0-index) is name, col 0 is #, col 3 is high-level term
+    aelist2=[]   
+    ae_file=csv.reader(open(os.path.dirname(__file__)+"/static/"+aelistfile),delimiter='\t')
+    for row in ae_file:
+       if not row[1] in aelist2:
+           aelist2.append(row[1])
+    return aelist2

@@ -31,26 +31,67 @@ $def with (matcheddrugx,cidlistx,listbydrugx,listbyaex,annotbydrugx,aescorex,dru
 }
 </style>
  
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="static/bootstrap/js/bootstrap.min.js"></script>
+
 <h1>Clearer: Summarize drug-associated AE risks</h1>
 <br><h4>
 <legend>Drugs matched:</legend> 
 <h4>$:matcheddrugx</p>
-<legend>AE's by drug:</legend>
-<h4>$:listbydrugx</p>
-<legend>Drugs by AE: </legend>
-<h4>$:listbyaex</h4>
-<hr>
+
+<br>
 <legend>Total burden score:</legend>
-$:aetotalx
+<h4>$:aetotalx</h4>
 <hr>
 
-<select id="refpop" name="refpop">
- <option value=0 selected>List by drug</option>
- <option value=1>List by adverse effect</option>
- <option value=2>Wind the frog</option>
-</select>
+<legend>Summaries</legend>
+<div class="accordion" id="accordion2">
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+AE's, by drug
+</a>
+</div>
+<div id="collapseOne" class="accordion-body collapse">
+<div class="accordion-inner">
+<h4>$:listbydrugx</p>
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+Drugs, by AE
+</a>
+</div>
+<div id="collapseTwo" class="accordion-body collapse">
+<div class="accordion-inner">
+$:listbyaex
+</div>
+</div>
+</div>
+</div>
+<br>
 
+<legend>Graphs</legend>
+<div class="accordion" id="accordion3">
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapse3One">
+Adverse effects
+</a>
+</div>
+<div id="collapse3One" class="accordion-body collapse">
+<div class="accordion-inner">
+<select id="refpop" name="refpop">
+ <option value=0 selected>By drug</option>
+ <option value=1>By adverse effect</option>
+</select>
 <div id='roygraph2'></div>
+</div>
+</div>
+</div>
+</div>
  
 <script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
 
@@ -135,18 +176,57 @@ var change=function() {
  var source=dropdown.node().options[dropdown.node().selectedIndex].value;
 
  if (source==0) {
-      svg.selectAll("bar")
-                  .data(data).transition()
-                  .attr("height",y2.rangeBand())
-         .attr("x",function(d,i) {return x(Math.min(0,d));})
-;
+    var textnew=svg.selectAll('text.contribution_names').data(names);
+var y2=d3.scale.ordinal()
+  .domain(d3.range(data.length))
+  .rangeRoundBands([0,height],.2);
+
+  textnew.enter().append("text.contribution_names");
+
+  textnew.transition()
+  .attr("y", function(d, i) { return y2(i)+(y2.rangeBand()/2)+4; })
+  .attr("x", 20)
+  .text(function(d) { return d; });
+
+  textnew.exit().remove();
+
+  var barnew=svg.selectAll("rect").data(data);
+   barnew.enter().append("rect");
+   barnew.transition()
+
+  .attr("x",function(d,i) {return x(Math.min(0,d));})
+  .attr("y",function(d,i) {return y2(i); })
+  .attr("width",function(d,i) {return Math.abs(x(d)-x(0));})
+  .attr("height",y2.rangeBand())
+         .attr("class",function(d,i) {return d<0 ? "bar minusgood" : "bar plusbad";});
+; 
+   barnew.exit().remove();
       }
 
 if (source==1) {
-      svg.selectAll("bar").data(data_ae).transition()
-                  .attr("height",y2.rangeBand())
-         .attr("x",function(d,i) {return x(Math.min(0,d));});
-      }
+       var textnew=svg.selectAll('text.contribution_names').data(names_ae);
+var y2=d3.scale.ordinal()
+  .domain(d3.range(data_ae.length))
+  .rangeRoundBands([0,height],.2);
+  textnew.enter().append("text");
+  textnew.transition()
+  .attr('class', 'contribution_names')
+  .attr("y", function(d, i) { return y2(i)+(y2.rangeBand()/2)+4; })
+  .attr("x", 20)
+  .text(function(d) { return d; });
+
+  textnew.exit().remove();
+
+  var barnew=svg.selectAll("rect").data(data_ae);
+       barnew.enter().append("rect");
+       barnew.transition()
+  .attr("x",function(d,i) {return x(Math.min(0,d));})
+  .attr("y",function(d,i) {return y2(i); })
+  .attr("width",function(d,i) {return Math.abs(x(d)-x(0));})
+  .attr("height",y2.rangeBand())
+         .attr("class",function(d,i) {return d<0 ? "bar minusgood" : "bar plusbad";});
+        barnew.exit().remove();
+}
 
 if (source==2) {
       svg.selectAll("circle")

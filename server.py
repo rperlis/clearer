@@ -16,6 +16,7 @@ urls = (
 
     '/about', 'about', 
     '/contact', 'contact', 
+    '/error', 'error',
 
     # would uncommment this next line to add a login view
     # '/login', 'login',
@@ -30,10 +31,10 @@ app = web.application(urls, globals(), autoreload=False)
 # This is the form object that is renderdd on the webpage
 # Here is an example of the form we used as a guide: http://webpy.org/form#example
 #
-form_comparators=['All CNS','Confusion','Delirium','Agitation','Custom']
+form_comparators=['All CNS','Psychiatry','Cognition','Other Neurologic','Agitation','Custom']
 
 myform = form.Form(
-    form.Textbox('Index_drug',value='Fluoxetine'),
+    form.Textbox('Index_drug',form.Validator('Field cannot be empty', lambda x: not x=="hello")),
     form.Dropdown('Comparator',form_comparators,value=0),
     form.Textarea('Druglist',value='None'),
     form.Checkbox('Option_1',value="0"),
@@ -81,7 +82,14 @@ class index:
             
             
             result=calculate_burden.check_medlist(variables)
-            return render.results(result['matched_drugs'],result['listed_CID'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'])
+            print("matched:",result['matched_drugs'])
+            if result['matched_drugs']==[] : return render.error(variables['Index_drug'],variables['Comparator'])
+            else: return render.results(result['matched_drugs'],result['listed_CID'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'])
+
+class error:
+    def GET(self):
+        return render.error(variables['Index_drug'],variables['Comparator'])
+        
 class about: 
     def GET(self): 
         return render.about()
