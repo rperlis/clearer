@@ -1,0 +1,31 @@
+PT_CODE	PT_STR	HG_CODE	HG_STR
+10016173	Fall	10022114	Injuries NEC
+10047340	Vertigo	10022396	Inner ear and VIIIth cranial nerve disorders
+10031127	Orthostatic hypotension	10029317	Neuromuscular disorders
+10056242	Parkinsonian gait	10018073	General system disorders NEC
+10056242	Parkinsonian gait	10028037	Movement disorders (incl parkinsonism)
+10066964	Procedural dizziness	10029305	Neurological disorders NEC
+10013576	Dizziness exertional	10011954	Decreased and nonspecific blood pressure disorders and shock
+10013578	Dizziness postural	10011954	Decreased and nonspecific blood pressure disorders and shock
+10047343	Vertigo CNS origin	10029305	Neurological disorders NEC
+10047344	Vertigo labyrinthine	10022396	Inner ear and VIIIth cranial nerve disorders
+10017585	Gait spastic	10018073	General system disorders NEC
+10047348	Vertigo positional	10022396	Inner ear and VIIIth cranial nerve disorders
+10017585	Gait spastic	10028037	Movement disorders (incl parkinsonism)
+10070635	Gait apraxia	10018073	General system disorders NEC
+10069431	Orthostatic heart rate response increased	10007512	Cardiac and vascular investigations (excl enzyme tests)
+10053352	Blood pressure orthostatic	10007512	Cardiac and vascular investigations (excl enzyme tests)
+10053354	Blood pressure orthostatic abnormal	10007512	Cardiac and vascular investigations (excl enzyme tests)
+10053356	Blood pressure orthostatic decreased	10007512	Cardiac and vascular investigations (excl enzyme tests)
+10054197	Gait deviation	10018073	General system disorders NEC
+10058560	Tandem gait test abnormal	10029295	"Neurological, special senses and psychiatric investigations"
+10058561	Tandem gait test normal	10029295	"Neurological, special senses and psychiatric investigations"
+10054197	Gait deviation	10029305	Neurological disorders NEC
+10063080	Postural orthostatic tachycardia syndrome	10029317	Neuromuscular disorders
+10063927	Orthostatic intolerance	10029317	Neuromuscular disorders
+10049848	Balance disorder	10029305	Neurological disorders NEC
+10017577	Gait disturbance	10018073	General system disorders NEC
+10017577	Gait disturbance	10029305	Neurological disorders NEC
+10063080	Postural orthostatic tachycardia syndrome	10007521	Cardiac arrhythmias
+10063927	Orthostatic intolerance	10007539	Cardiac disorder signs and symptoms
+10070635	Gait apraxia	10029305	Neurological disorders NEC

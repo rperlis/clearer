@@ -55,7 +55,8 @@ def check_medlist(variables):
         aelist=load_aefilelist("CNS_other_neurologic.txt")
     elif variables['Comparator']=="All CNS":
         aelist=load_aefilelist("CNS_full.txt")
-        
+    elif variables['Comparator']=="Fall Risk":
+        aelist=load_aefilelist("CNS_fall_risk.txt")     
     else : aelist=[variables['Comparator']]    
             
 # read in AE megafile - it's gzipped...

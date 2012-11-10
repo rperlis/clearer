@@ -34,45 +34,13 @@ $def with (matcheddrugx,cidlistx,listbydrugx,listbyaex,annotbydrugx,aescorex,dru
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="static/bootstrap/js/bootstrap.min.js"></script>
 
-<h1>Clearer: Summarize drug-associated AE risks</h1>
-<br><h4>
+<h1>Clearer: Summarize drug-associated adverse effect risks</h1>
+<br>
+<h4><legend>Total burden score: $:aetotalx</legend>
+</h4>
 <legend>Drugs matched:</legend> 
 <h4>$:matcheddrugx</p>
-
 <br>
-<legend>Total burden score:</legend>
-<h4>$:aetotalx</h4>
-<hr>
-
-<legend>Summaries</legend>
-<div class="accordion" id="accordion2">
-<div class="accordion-group">
-<div class="accordion-heading">
-<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-AE's, by drug
-</a>
-</div>
-<div id="collapseOne" class="accordion-body collapse">
-<div class="accordion-inner">
-<h4>$:listbydrugx</p>
-</div>
-</div>
-</div>
-<div class="accordion-group">
-<div class="accordion-heading">
-<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-Drugs, by AE
-</a>
-</div>
-<div id="collapseTwo" class="accordion-body collapse">
-<div class="accordion-inner">
-$:listbyaex
-</div>
-</div>
-</div>
-</div>
-<br>
-
 <legend>Graphs</legend>
 <div class="accordion" id="accordion3">
 <div class="accordion-group">
@@ -81,7 +49,7 @@ $:listbyaex
 Adverse effects
 </a>
 </div>
-<div id="collapse3One" class="accordion-body collapse">
+<div id="collapse3One" class="accordion-body collapse in">
 <div class="accordion-inner">
 <select id="refpop" name="refpop">
  <option value=0 selected>By drug</option>
@@ -240,3 +208,30 @@ dropdown.on("change",change);
 
 </script>   
 
+<legend>Summaries</legend>
+<div class="accordion" id="accordion2">
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+For each drug, list adverse effects
+</a>
+</div>
+<div id="collapseOne" class="accordion-body collapse">
+<div class="accordion-inner">
+<h4>$:listbydrugx</p>
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+For each adverse effect, list drugs
+</a>
+</div>
+<div id="collapseTwo" class="accordion-body collapse">
+<div class="accordion-inner">
+$:listbyaex
+</div>
+</div>
+</div>
+</div>
