@@ -85,7 +85,7 @@ class index:
 
             print("listed_CID",result['listed_CID'])
             if result['matched_drugs']==[] : return render.error(variables['Index_drug'],variables['Comparator'])
-            else: return render.results(result['matched_drugs'],result['listed_CID'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'],
+            else: return render.results(result['matched_drugs'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'],
                                         result['modifiers_p450'],result['subs_p450'])
 
 class error:

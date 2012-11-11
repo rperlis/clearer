@@ -156,7 +156,6 @@ def check_medlist(variables):
         'matched_drugs': matcheddrugs,
         'modifiers_p450':"modifiers_p450",
         'subs_p450':"subs_p450",
-        'listed_CID': "temp",
         'list_by_drug':list_by_drug,
         'list_by_ae':list_by_ae,
         'annotation_by_drug':annotation_by_drug,         
