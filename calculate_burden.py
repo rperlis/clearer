@@ -97,26 +97,9 @@ def check_medlist(variables):
     substrates_p450={}
     multiplier={}
     
-    for med in matcheddrugs:
-        multiplier[med]=1
-        
-    p450_panel={'1A2':1, '2B6':1, '2C8':1, '2C9': 1, '2C19':1, '2D6': 1, '2E1':1, '3A457': 1}
-
-    # now read in inhibitors/inducers: format is DRUGNAME P450 MULTIPLIER
-    cyp450_mods=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_MODIFIERS),delimiter='\t')
-    for row in cyp450_mods:
-       if row[0] in matcheddrugs:
-           p450_panel[row[1]]=p450_panel[row[1]]*float(row[2])                     #modify p450 status panel
-           modifiers_p450[row[0]]=row[1]                                    #add to list of modifiers
+    modifiers_p450,substrates_p450,multiplier=map_p450(matcheddrugs)
     
-    # now generate multipliers for med side effects
-    cyp450_subs=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_SUBSTRATES),delimiter='\t')
-    for row in cyp450_subs:
-       if row[0] in matcheddrugs:
-           multiplier[row[0]]=multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
-           substrates_p450[row[0]]=row[1]                                   #add to list of substrates    
-    
-    print("multiplier",multiplier)
+    print("mods",modifiers_p450)
     
     # now calculate burden score
     list_by_ae={}
@@ -166,7 +149,6 @@ def check_medlist(variables):
     annotation_by_drug={}
     #for drug in matched_drugs:
     #    annotation_by_drug[drug]=annotation[drug]
-    print("****>modifiers",modifiers_p450)
 # now return results    
     return {
         'matched_drugs': matcheddrugs,
@@ -245,8 +227,4 @@ def map_p450(list_of_meds):
            p450_multiplier[row[0]]=p450_multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
            p450_substrates[row[0]]=row[1]                                   #add to list of substrates
 
-    return {
-        'modifiers': p450_modifiers,
-        'substrates':p450_substrates,
-        'multiplier': p450_multiplier
-    }
+    return p450_modifiers,p450_substrates,p450_multiplier
