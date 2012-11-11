@@ -91,12 +91,12 @@ def check_medlist(variables):
             matcheddrugs.remove(backmatch_dict[cid])
                 
     #now figure out p450 interactions!
-    mods_p450={}
+    modifiers_p450={}
     subs_p450={}
     multiplier={}
     
-    mods_p450,subs_p450,multiplier=map_p450(matcheddrugs)
-    print("mods_p450",mods_p450)
+    modifiers_p450,subs_p450,multiplier=map_p450(matcheddrugs)
+    print("mods_p450",modifiers_p450)
     # now calculate burden score
     list_by_ae={}
     list_by_drug={}
@@ -149,7 +149,7 @@ def check_medlist(variables):
 # now return results    
     return {
         'matched_drugs': matcheddrugs,
-        'mods_p450':mods_p450,
+        'modifiers_p450':modifiers_p450,
         'subs_p450':subs_p450,
         'listed_CID': "temp",
         'list_by_drug':list_by_drug,
