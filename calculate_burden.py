@@ -92,7 +92,7 @@ def check_medlist(variables):
                 
     #now figure out p450 interactions!
     mods_p450,subs_p450,multiplier=map_p450(matcheddrugs)
-    
+    print("mods_p450",mods_p450)
     # now calculate burden score
     list_by_ae={}
     list_by_drug={}
