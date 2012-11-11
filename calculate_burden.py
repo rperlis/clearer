@@ -96,11 +96,11 @@ def check_medlist(variables):
     multiplier={}
     
     p450_results=map_p450(matcheddrugs)
-    modifiers_p450=p450_results['modifiers']
+    mods_p450=p450_results['modifiers']
     subs_p450=p450_results['substrates']
     multiplier=p450_results['multiplier']
     
-    print("mods_p450",modifiers_p450)
+    print("multiplier",multiplier)
     
     # now calculate burden score
     list_by_ae={}
@@ -154,7 +154,7 @@ def check_medlist(variables):
 # now return results    
     return {
         'matched_drugs': matcheddrugs,
-        'modifiers_p450':"modifiers_p450",
+        'multipliers':multiplier,
         'subs_p450':"subs_p450",
         'list_by_drug':list_by_drug,
         'list_by_ae':list_by_ae,
@@ -209,9 +209,9 @@ def map_p450(list_of_meds):
     p450_substrates={}
     p450_modifiers={}
     
-    multiplier={}
+    p450_multiplier={}
     for med in list_of_meds:
-        multiplier[med]=1
+        p450_multiplier[med]=1
         
     p450_panel={'1A2':1, '2B6':1, '2C8':1, '2C9': 1, '2C19':1, '2D6': 1, '2E1':1, '3A457': 1}
 
@@ -226,11 +226,11 @@ def map_p450(list_of_meds):
     cyp450_subs=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_SUBSTRATES),delimiter='\t')
     for row in cyp450_subs:
        if row[0] in list_of_meds:
-           multiplier[row[0]]=multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
+           p450_multiplier[row[0]]=p450_multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
            p450_substrates[row[0]]=row[1]                                   #add to list of substrates
 
     return {
         'modifiers': p450_modifiers,
         'substrates':p450_substrates,
-        'multiplier': multiplier
+        'multiplier': p450_multiplier
     }
