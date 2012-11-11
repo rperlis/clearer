@@ -11,10 +11,12 @@ import collections
 import re   # needed for splitting strings
 import os   # needed for file names
 
-# CONSTANTS would go here, if any - eg, CONSTANT={'value1': num, 'value2':num2, etc.}
+# CONSTANTS would go here, if any 
 FNAME_MED_TO_CID=os.path.dirname(__file__)+"/static/label_mapping.tsv.gz"
 FNAME_CID_TO_AE=os.path.dirname(__file__)+"/static/meddra_freq_parsed.tsv.gz"
-
+CYP450_MODIFIERS="cyp450_mods.txt"
+CYP450_SUBSTRATES="cyp450_substrates.txt"
+    
 def check_medlist(variables): 
     """
 
@@ -92,13 +94,27 @@ def check_medlist(variables):
                 
     #now figure out p450 interactions!
     modifiers_p450={}
-    subs_p450={}
+    substrates_p450={}
     multiplier={}
     
-    p450_results=map_p450(matcheddrugs)
-    mods_p450=p450_results['modifiers']
-    subs_p450=p450_results['substrates']
-    multiplier=p450_results['multiplier']
+    for med in matcheddrugs:
+        multiplier[med]=1
+        
+    p450_panel={'1A2':1, '2B6':1, '2C8':1, '2C9': 1, '2C19':1, '2D6': 1, '2E1':1, '3A457': 1}
+
+    # now read in inhibitors/inducers: format is DRUGNAME P450 MULTIPLIER
+    cyp450_mods=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_MODIFIERS),delimiter='\t')
+    for row in cyp450_mods:
+       if row[0] in matcheddrugs:
+           p450_panel[row[1]]=p450_panel[row[1]]*float(row[2])                     #modify p450 status panel
+           modifiers_p450[row[0]]=row[1]                                    #add to list of modifiers
+    
+    # now generate multipliers for med side effects
+    cyp450_subs=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_SUBSTRATES),delimiter='\t')
+    for row in cyp450_subs:
+       if row[0] in matcheddrugs:
+           multiplier[row[0]]=multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
+           substrates_p450[row[0]]=row[1]                                   #add to list of substrates    
     
     print("multiplier",multiplier)
     
@@ -154,8 +170,8 @@ def check_medlist(variables):
 # now return results    
     return {
         'matched_drugs': matcheddrugs,
-        'multipliers':multiplier,
-        'subs_p450':"subs_p450",
+        'mods_p450':modifiers_p450,
+        'subs_p450':substrates_p450,
         'list_by_drug':list_by_drug,
         'list_by_ae':list_by_ae,
         'annotation_by_drug':annotation_by_drug,         
