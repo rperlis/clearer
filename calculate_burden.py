@@ -235,7 +235,7 @@ def make_table(any_dictionary,col1,col2,showfreq=1):
     for key1 in any_dictionary:
         htmltext=htmltext+'<tr><td>'+key1+'</td><td>'
         for key2 in any_dictionary[key1]:
-            if showfreq=1:
+            if showfreq==1:
                 htmltext=htmltext+key2+' ('+str(any_dictionary[key1][key2]*100)+'%), '
             else:
                 htmltext=htmltext+key2+', '
