@@ -150,7 +150,7 @@ def check_medlist(variables):
     annotation_by_drug={}
     #for drug in matched_drugs:
     #    annotation_by_drug[drug]=annotation[drug]
-    
+    print("****>modifiers",modifiers_p450)
 # now return results    
     return {
         'matched_drugs': matcheddrugs,
