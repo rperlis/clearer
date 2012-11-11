@@ -154,8 +154,8 @@ def check_medlist(variables):
 # now return results    
     return {
         'matched_drugs': matcheddrugs,
-        'modifiers_p450':modifiers_p450,
-        'subs_p450':subs_p450,
+        'modifiers_p450':"modifiers_p450",
+        'subs_p450':"subs_p450",
         'listed_CID': "temp",
         'list_by_drug':list_by_drug,
         'list_by_ae':list_by_ae,
