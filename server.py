@@ -85,7 +85,8 @@ class index:
 
             print("subsp450_returned",result['subs_p450'])
             if result['matched_drugs']==[] : return render.error(variables['Index_drug'],variables['Comparator'])
-            else: return render.results(result['matched_drugs'],result['listed_CID'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'],result['modifiers_p450'],result['subs_p450'])
+            else: return render.results(result['matched_drugs'],result['listed_CID'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'],
+                                        result['modifiers_p450'],result['subs_p450'])
 
 class error:
     def GET(self):
