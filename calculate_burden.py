@@ -149,13 +149,14 @@ def check_medlist(variables):
     annotation_by_drug={}
     #for drug in matched_drugs:
     #    annotation_by_drug[drug]=annotation[drug]
-# now return results    
+# now return results  
+    print(make_table(list_by_drug,'drug','adverse effect'))  
     return {
         'matched_drugs': matcheddrugs,
         'mods_p450':modifiers_p450,
         'subs_p450':substrates_p450,
-        'list_by_drug':list_by_drug,
-        'list_by_ae':list_by_ae,
+        'list_by_drug':make_table(list_by_drug,'Drug','Adverse Effect'),
+        'list_by_ae':make_table(list_by_ae,'Adverse effect','Drug'),
         'annotation_by_drug':annotation_by_drug,         
         'ae_score':ae_score,
         'drug_score':drug_score,
@@ -227,3 +228,17 @@ def map_p450(list_of_meds,use_p450):
            if use_p450==1: p450_multiplier[row[0]]=p450_multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
            p450_substrates[row[0]]=row[1]                                   #add to list of substrates
     return p450_modifiers,p450_substrates,p450_multiplier
+    
+def make_table(any_dictionary,col1,col2,showfreq=1):
+    htmltext='<table class="table table-condensed table-bordered table-striped"><thead><th>'+col1+'</th><th>'+col2+'</th></thead>'
+    htmltext=htmltext+'<tbody>'
+    for key1 in any_dictionary:
+        htmltext=htmltext+'<tr><td>'+key1+'</td><td>'
+        for key2 in any_dictionary[key1]:
+            if showfreq=1:
+                htmltext=htmltext+key2+' ('+str(any_dictionary[key1][key2]*100)+'%), '
+            else:
+                htmltext=htmltext+key2+', '
+        htmltext=htmltext[:-2]+'</td></tr>'            
+    htmltext=htmltext+'</tbody></table>'
+    return htmltext
