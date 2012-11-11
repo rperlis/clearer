@@ -203,7 +203,7 @@ def map_p450(list_of_meds):
     CYP450_MODIFIERS="cyp450_mods.txt"
     CYP450_SUBSTRATES="cyp450_substrates.txt"
     p450_substrates={}
-    p450_modifiers={}
+    p450_modifiers={'test':1}
     
     multiplier={}
     for med in list_of_meds:
