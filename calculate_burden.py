@@ -95,8 +95,13 @@ def check_medlist(variables):
     subs_p450={}
     multiplier={}
     
-    modifiers_p450,subs_p450,multiplier=map_p450(matcheddrugs)
+    p450_results=map_p450(matcheddrugs)
+    modifiers_p450=p450_results['modifiers']
+    subs_p450=p450_results['substrates']
+    multiplier=p450_results['multiplier']
+    
     print("mods_p450",modifiers_p450)
+    
     # now calculate burden score
     list_by_ae={}
     list_by_drug={}
@@ -203,7 +208,7 @@ def map_p450(list_of_meds):
     CYP450_MODIFIERS="cyp450_mods.txt"
     CYP450_SUBSTRATES="cyp450_substrates.txt"
     p450_substrates={}
-    p450_modifiers={'test':1}
+    p450_modifiers={}
     
     multiplier={}
     for med in list_of_meds:
@@ -225,4 +230,8 @@ def map_p450(list_of_meds):
            multiplier[row[0]]=multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
            p450_substrates[row[0]]=row[1]                                   #add to list of substrates
 
-    return p450_modifiers,p450_substrates,multiplier
+    return {
+        'modifiers': p450_modifiers,
+        'substrates':p450_substrates,
+        'multiplier': multiplier
+    }
