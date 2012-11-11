@@ -6,10 +6,10 @@ import operator
 import random
 from scipy.stats import stats
 import itertools
-import gzip
+import gzip  #needed for gzipped files
 import collections
-import re
-import os
+import re   # needed for splitting strings
+import os   # needed for file names
 
 # CONSTANTS would go here, if any - eg, CONSTANT={'value1': num, 'value2':num2, etc.}
 FNAME_MED_TO_CID=os.path.dirname(__file__)+"/static/label_mapping.tsv.gz"
@@ -25,8 +25,11 @@ def check_medlist(variables):
     """
 
 # take csv list passed of meds
-    complist=[x.strip() for x in variables['Druglist'].replace('\n',',').split(',')]  
+    #complist=[x.strip() for x in variables['Druglist'].replace('\n',',').split(',')]  
+    complist=[x for x in variables['Druglist'].replace('\n',',').split(',')]  
     complist=filter(None,complist)
+    complist=[y.lstrip(" ").split(" ")[0] for y in complist]
+    print("complist",complist)
 # map to CID for lookup
 
     matcher_dict={}
@@ -69,23 +72,13 @@ def check_medlist(variables):
         for row in drug_properties:
             if (row[9]=="PT" and not(row[5]=="placebo")) and not row[0]=='' :
                 # need to reassign frequencies (exact) to categories
-                freqtemp=row[6]
                    #postmarketing, rare, infrequent, frequent, or exact #
-                if variables['Option_1']==1:   
-                    if freqtemp=="postmarketing": freqnum=.01
-                    elif freqtemp=="rare": freqnum=.01
-                    elif freqtemp=="infrequent": freqnum=.05
-                    elif freqtemp=="frequent": freqnum=.25
-                    elif freqtemp=="potential": freqnum=.001
-                    elif "-" in freqtemp or "to" in freqtemp: freqnum=.01  #fix this!!
-                    else : freqnum=float(freqtemp[:-1])/100
-                else: 
-                    if freqtemp=="potential": freqnum=0
-                    else: freqnum=0.1 
-                if row[0] in property_dict:
+                freqnum=parse_frequency(row[6])
+                if variables['Option_1']==0 and freqnum>0: freqnum=.1   # treats any ae as freq=.1
+                if freqnum>0 and row[0] in property_dict:
                     if not(row[11] in property_dict[row[0]]):
                         property_dict[row[0]][row[11]]=freqnum
-                else :
+                elif freqnum>0 :
                     property_dict[row[0]]={}
                     property_dict[row[0]][row[11]]=freqnum
                     
@@ -97,32 +90,33 @@ def check_medlist(variables):
             matchedcid.remove(cid)
             matcheddrugs.remove(backmatch_dict[cid])
                 
+    #now figure out p450 interactions!
+    mods_p450,subs_p450,multiplier=map_p450(matcheddrugs)
+    
     # now calculate burden score
     list_by_ae={}
     list_by_drug={}
 
     # loop over all AE's in list to query
-    print("***")
-    print("cid",matchedcid)
-    print("aelist",aelist)
     for cid in matchedcid:
         for ae in aelist:
             if not property_dict.has_key(cid): drug_not_in_dictionary.append(backmatch_dict[cid])
             elif ae in property_dict[cid] :
                 if ae in list_by_ae:
-                    list_by_ae[ae][backmatch_dict[cid]]=property_dict[cid][ae]
+                    list_by_ae[ae][backmatch_dict[cid]]=property_dict[cid][ae]*multiplier[backmatch_dict[cid]]
                 else :
                     list_by_ae[ae]={}
-                    list_by_ae[ae][backmatch_dict[cid]]=property_dict[cid][ae] 
+                    list_by_ae[ae][backmatch_dict[cid]]=property_dict[cid][ae]*multiplier[backmatch_dict[cid]] 
                     
                 if backmatch_dict[cid] in list_by_drug:
-                    list_by_drug[backmatch_dict[cid]][ae]=property_dict[cid][ae] 
+                    list_by_drug[backmatch_dict[cid]][ae]=property_dict[cid][ae]*multiplier[backmatch_dict[cid]] 
                 else:
                     list_by_drug[backmatch_dict[cid]]={}
-                    list_by_drug[backmatch_dict[cid]][ae]=property_dict[cid][ae] 
+                    list_by_drug[backmatch_dict[cid]][ae]=property_dict[cid][ae]*multiplier[backmatch_dict[cid]] 
     print("not_in_dict",drug_not_in_dictionary)
     
     #if we want to add a warning for high placebo rate, add it here.
+
     
     # now sum up freq burden or risk, by AE
     print("show list_by_ae",list_by_ae)
@@ -151,6 +145,8 @@ def check_medlist(variables):
 # now return results    
     return {
         'matched_drugs': matcheddrugs,
+        'mods_p450':mods_p450,
+        'subs_p450':subs_p450,
         'listed_CID': "temp",
         'list_by_drug':list_by_drug,
         'list_by_ae':list_by_ae,
@@ -175,3 +171,54 @@ def load_aefilelist (aelistfile):
        if not row[1] in aelist2:
            aelist2.append(row[1])
     return aelist2
+
+"""
+this function parses frequencies from screwy file
+"""
+
+def parse_frequency(freqtemp):
+    if freqtemp=="postmarketing": freqnum=.01
+    elif freqtemp=="rare": freqnum=.01
+    elif freqtemp=="infrequent": freqnum=.05
+    elif freqtemp=="frequent": freqnum=.25
+    elif freqtemp=="potential": freqnum=.001     # potential should be nearly zero!
+    elif "-" in freqtemp or "to" in freqtemp: 
+        if freqtemp[-1:]=="%" : freqtemp=freqtemp[:-1]
+        freqnums=re.split('-|to',freqtemp.replace(" ",""))
+        freqnum=(float(freqnums[0])+float(freqnums[1]))/200
+    else : freqnum=float(freqtemp[:-1])/100
+    
+    return freqnum
+
+"""
+this function takes a list of meds and figures out p450 status
+returns a dictionary of drug->AE multiplier (ie, 2=double AE's, 0.5=half-normal AE's)
+"""
+
+def map_p450(list_of_meds):
+    CYP450_MODIFIERS="cyp450_mods.txt"
+    CYP450_SUBSTRATES="cyp450_substrates.txt"
+    p450_substrates={}
+    p450_modifiers={}
+    
+    multiplier={}
+    for med in list_of_meds:
+        multiplier[med]=1
+        
+    p450_panel={'1A2':1, '2B6':1, '2C8':1, '2C9': 1, '2C19':1, '2D6': 1, '2E1':1, '3A457': 1}
+
+    # now read in inhibitors/inducers: format is DRUGNAME P450 MULTIPLIER
+    cyp450_mods=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_MODIFIERS),delimiter='\t')
+    for row in cyp450_mods:
+       if row[0] in list_of_meds:
+           p450_panel[row[1]]=p450_panel[row[1]]*float(row[2])                     #modify p450 status panel
+           p450_modifiers[row[0]]=row[1]                                    #add to list of modifiers
+    
+    # now generate multipliers for med side effects
+    cyp450_subs=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_SUBSTRATES),delimiter='\t')
+    for row in cyp450_subs:
+       if row[0] in list_of_meds:
+           multiplier[row[0]]=multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
+           p450_substrates[row[0]]=row[1]                                   #add to list of substrates
+
+    return p450_modifiers,p450_substrates,multiplier

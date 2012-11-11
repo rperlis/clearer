@@ -1,4 +1,4 @@
-$def with (matcheddrugx,cidlistx,listbydrugx,listbyaex,annotbydrugx,aescorex,drugscorex,aetotalx)
+$def with (matcheddrugx,cidlistx,listbydrugx,listbyaex,annotbydrugx,aescorex,drugscorex,aetotalx,modp450x,subp450x)
 
 <style>
 .axis path,
@@ -231,6 +231,19 @@ For each adverse effect, list drugs
 <div id="collapseTwo" class="accordion-body collapse">
 <div class="accordion-inner">
 $:listbyaex
+</div>
+</div>
+</div>
+<div class="accordion-group">
+<div class="accordion-heading">
+<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+p450 interactions
+</a>
+</div>
+<div id="collapseThree" class="accordion-body collapse">
+<div class="accordion-inner">
+Inhibitors/inducers:$:modp450x<br>
+Substrates:$:subp450x
 </div>
 </div>
 </div>
