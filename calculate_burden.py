@@ -97,7 +97,7 @@ def check_medlist(variables):
     substrates_p450={}
     multiplier={}
     
-    modifiers_p450,substrates_p450,multiplier=map_p450(matcheddrugs)
+    modifiers_p450,substrates_p450,multiplier=map_p450(matcheddrugs,variables['Option_2'])
     
     print("mods",modifiers_p450)
     
@@ -201,7 +201,7 @@ this function takes a list of meds and figures out p450 status
 returns a dictionary of drug->AE multiplier (ie, 2=double AE's, 0.5=half-normal AE's)
 """
 
-def map_p450(list_of_meds):
+def map_p450(list_of_meds,use_p450):
     CYP450_MODIFIERS="cyp450_mods.txt"
     CYP450_SUBSTRATES="cyp450_substrates.txt"
     p450_substrates={}
@@ -224,7 +224,6 @@ def map_p450(list_of_meds):
     cyp450_subs=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_SUBSTRATES),delimiter='\t')
     for row in cyp450_subs:
        if row[0] in list_of_meds:
-           p450_multiplier[row[0]]=p450_multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
+           if use_p450==1: p450_multiplier[row[0]]=p450_multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
            p450_substrates[row[0]]=row[1]                                   #add to list of substrates
-
     return p450_modifiers,p450_substrates,p450_multiplier
