@@ -2,8 +2,6 @@ import web
 from web import form
 # from clearer import calculate_burden ---> TURN BACK ON FOR SERVER!
 from clearer import calculate_burden
-import math
-import json
 import os
 
 render = web.template.render(os.path.dirname(os.path.abspath(__file__)) + '/templates/', base='layout')
