@@ -48,7 +48,7 @@ def check_medlist(variables):
 
             gname=row[1].upper().split(" ")[0]
             bname=row[0].upper().split(" ")[0]
-            if ((gname in complist) or (bname in complist)):
+            if ((gname in complist) or (bname in complist)) and not gname=='':
                 print("in complist: gname",gname,"bname",bname)
                 if (not gname in matcher_dict) and (not gname in matcheddrugs) and (not bname in matcheddrugs) :
                     matcher_dict[gname]= row[3]
