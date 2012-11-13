@@ -1,7 +1,7 @@
 import web
 from web import form
-# from clearer import calculate_burden ---> TURN BACK ON FOR SERVER!
 from clearer import calculate_burden
+#import calculate_burden
 import os
 
 render = web.template.render(os.path.dirname(os.path.abspath(__file__)) + '/templates/', base='layout')
@@ -30,7 +30,7 @@ app = web.application(urls, globals(), autoreload=False)
 # This is the form object that is renderdd on the webpage
 # Here is an example of the form we used as a guide: http://webpy.org/form#example
 #
-form_comparators=['All CNS','Psychiatry','Cognition','Other Neurologic','Fall Risk','Custom']
+form_comparators=['Psychiatry','Cognition','Other Neurologic','Fall Risk']
 
 myform = form.Form(
     form.Textbox('Index_drug',form.Validator('Field cannot be empty', lambda x: not x=="hello")),

@@ -30,7 +30,7 @@ def check_medlist(variables):
 
 # take csv list passed of meds
     #complist=[x.strip() for x in variables['Druglist'].replace('\n',',').split(',')]  
-    complist=[x for x in variables['Druglist'].replace('\n',',').split(',')]  
+    complist=[x for x in variables['Druglist'].replace('\n',',').replace('\r',',').split(',')]  
     complist=filter(None,complist)
     complist=[y.lstrip(" ").split(" ")[0] for y in complist]
     print("complist",complist)
@@ -40,19 +40,24 @@ def check_medlist(variables):
     backmatch_dict={}
     matchedcid=[]
     matcheddrugs=[]
-    matcheddrug_to_cid={}
+    matched_othername=[]
 
     with gzip.open(FNAME_MED_TO_CID) as gzfile:
         medpairs=csv.reader(gzfile,delimiter='\t')    
         for row in medpairs:
 
-            if ((row[0] in complist) or (row[1] in complist)):
-                if (not row[1] in matcher_dict) and (not row[1] in matcheddrugs and not row[0] in matcheddrugs) :
-                    matcher_dict[row[1]]= row[3]
-                    backmatch_dict[row[3]]=row[1]
-                    matcheddrugs.append(row[1])
+            gname=row[1].upper().split(" ")[0]
+            bname=row[0].upper().split(" ")[0]
+            if ((gname in complist) or (bname in complist)):
+                print("in complist: gname",gname,"bname",bname)
+                if (not gname in matcher_dict) and (not gname in matcheddrugs) and (not bname in matcheddrugs) :
+                    matcher_dict[gname]= row[3]
+                    backmatch_dict[row[3]]=gname
+                    matcheddrugs.append(gname)
+                    matched_othername.append(bname)             # hack to address bname and gname switch
                     matchedcid.append(row[3])
     print("matchedlist:",matcher_dict)
+    
 # make aelist from comparator
     if variables['Comparator']=="Psychiatry":
         aelist= load_aefilelist("CNS_psychiatric.txt")  
@@ -93,13 +98,13 @@ def check_medlist(variables):
             drug_not_in_dictionary.append(backmatch_dict[cid])
             matchedcid.remove(cid)
             matcheddrugs.remove(backmatch_dict[cid])
-                
+            del matcher_dict[backmatch_dict[cid]]
     #now figure out p450 interactions!
     modifiers_p450={}
     substrates_p450={}
     multiplier={}
     
-    inhibitors_p450,inducers_p450,substrates_p450,multiplier=map_p450(matcheddrugs,variables['Option_2'])
+    inhibitors_p450,inducers_p450,substrates_p450,multiplier=map_p450(matcheddrugs,matched_othername,variables['Option_2'])
     
     print("mods",modifiers_p450)
     
@@ -204,7 +209,7 @@ this function takes a list of meds and figures out p450 status
 returns a dictionary of drug->AE multiplier (ie, 2=double AE's, 0.5=half-normal AE's)
 """
 
-def map_p450(list_of_meds,use_p450):
+def map_p450(list_of_meds,altnames_meds,use_p450):
     CYP450_MODIFIERS="cyp450_mods.txt"
     CYP450_SUBSTRATES="cyp450_substrates.txt"
     p450_substrates={}
@@ -220,20 +225,22 @@ def map_p450(list_of_meds,use_p450):
     # now read in inhibitors/inducers: format is DRUGNAME P450 MULTIPLIER
     cyp450_mods=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_MODIFIERS),delimiter='\t')
     for row in cyp450_mods:
-       if row[0] in list_of_meds:
+       drugname=row[0].upper().split(" ")[0]
+       if drugname in list_of_meds or drugname in altnames_meds:
            p450_panel[row[1]]=p450_panel[row[1]]*float(row[2])                     #modify p450 status panel
-           if float(row[2])<1: p450_inducers[row[0]]=row[1]                                    #add to list of modifiers
-           if float(row[2])>1: p450_inhibitors[row[0]]=row[1]
+           if float(row[2])<1: p450_inducers[drugname]=row[1]                                    #add to list of modifiers
+           if float(row[2])>1: p450_inhibitors[drugname]=row[1]
     # now generate multipliers for med side effects
     cyp450_subs=csv.reader(open(os.path.dirname(__file__)+"/static/"+CYP450_SUBSTRATES),delimiter='\t')
     for row in cyp450_subs:
-       if row[0] in list_of_meds:
-           if use_p450==1: p450_multiplier[row[0]]=p450_multiplier[row[0]]*p450_panel[row[1]]         #lookup p450 key, multiply  
-           p450_substrates[row[0]]=row[1]                                   #add to list of substrates
+       drugname=row[0].upper().split(" ")[0] 
+       if drugname in list_of_meds:
+           if use_p450==1: p450_multiplier[drugname]=p450_multiplier[drugname]*p450_panel[row[1]]         #lookup p450 key, multiply  
+           p450_substrates[drugname]=row[1]                                   #add to list of substrates
     return p450_inhibitors,p450_inducers,p450_substrates,p450_multiplier
     
 def make_table(any_dictionary,col1,col2,showfreq=1):
-    htmltext='<table class="table table-condensed table-bordered table-striped"><thead><th>'+col1+'</th><th>'+col2+'</th></thead>'
+    htmltext='<table class="table table-condensed table-bordered table-striped"><thead><th style="width:20%">'+col1+'</th><th>'+col2+'</th></thead>'
     htmltext=htmltext+'<tbody>'
     if any_dictionary:
         for key1 in any_dictionary:
@@ -249,7 +256,7 @@ def make_table(any_dictionary,col1,col2,showfreq=1):
     return htmltext
 
 def make_table_list(any_dictionary,col1,col2):
-    htmltext='<table class="table table-condensed table-bordered table-striped"><thead><th>'+col1+'</th><th>'+col2+'</th></thead>'
+    htmltext='<table class="table table-condensed table-bordered table-striped"><thead><th style="width:20%">'+col1+'</th><th>'+col2+'</th></thead>'
     htmltext=htmltext+'<tbody>'
     if any_dictionary:
         for key1 in any_dictionary:
