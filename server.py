@@ -1,7 +1,7 @@
 import web
 from web import form
-from clearer import calculate_burden
-#import calculate_burden
+#from clearer import calculate_burden
+import calculate_burden
 import os
 
 render = web.template.render(os.path.dirname(os.path.abspath(__file__)) + '/templates/', base='layout')
