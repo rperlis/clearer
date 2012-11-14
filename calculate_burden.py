@@ -239,7 +239,7 @@ def map_p450(list_of_meds,altnames_meds,use_p450):
        if drugname in list_of_meds:
            if use_p450==1: p450_multiplier[drugname]=p450_multiplier[drugname]*p450_panel[row[1]]         #lookup p450 key, multiply  
            p450_substrates[drugname]=row[1]
-           if not p450_multiplier[drugname]==1 : p450_substrates[drugname]=row[1]+"*"             
+           if not p450_panel[row[1]]==1 : p450_substrates[drugname]=row[1]+"*"             
      #add to list of substrates
     return p450_inhibitors,p450_inducers,p450_substrates,p450_multiplier
     
