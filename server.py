@@ -30,7 +30,7 @@ app = web.application(urls, globals(), autoreload=False)
 # This is the form object that is renderdd on the webpage
 # Here is an example of the form we used as a guide: http://webpy.org/form#example
 #
-form_comparators=['Psychiatry','Cognition','Other Neurologic','Fall Risk']
+form_comparators=['Psychiatry','Cognition','Other Neurologic','Fall Risk','Bleeding']
 
 myform = form.Form(
     form.Textbox('Index_drug',form.Validator('Field cannot be empty', lambda x: not x=="hello")),

@@ -67,6 +67,8 @@ def check_medlist(variables):
         aelist=load_aefilelist("CNS_other_neurologic.txt")
     elif variables['Comparator']=="All CNS":
         aelist=load_aefilelist("CNS_full.txt")
+    elif variables['Comparator']=="Bleeding":
+        aelist=load_aefilelist("Heme_bleeding.txt")
     elif variables['Comparator']=="Fall Risk":
         aelist=load_aefilelist("CNS_fall_risk.txt")     
     else : aelist=[variables['Comparator']]    
@@ -162,8 +164,8 @@ def check_medlist(variables):
         'matched_drugs': matcheddrugs,
         'mods_p450':make_table_list(inhibitors_p450,'Inhibitor','Enzyme') + make_table_list(inducers_p450,'Inducer','Enzyme'),
         'subs_p450':make_table_list(substrates_p450,'Substrate','Enzyme'),
-        'list_by_drug':make_table(list_by_drug,'Drug','Adverse Effect'),
-        'list_by_ae':make_table(list_by_ae,'Adverse effect','Drug'),
+        'list_by_drug':make_table(list_by_drug,'Drug','Adverse Effect',variables['Option_1']),
+        'list_by_ae':make_table(list_by_ae,'Adverse effect','Drug',variables['Option_1']),
         'annotation_by_drug':annotation_by_drug,         
         'ae_score':ae_score,
         'drug_score':drug_score,
@@ -236,7 +238,9 @@ def map_p450(list_of_meds,altnames_meds,use_p450):
        drugname=row[0].upper().split(" ")[0] 
        if drugname in list_of_meds:
            if use_p450==1: p450_multiplier[drugname]=p450_multiplier[drugname]*p450_panel[row[1]]         #lookup p450 key, multiply  
-           p450_substrates[drugname]=row[1]                                   #add to list of substrates
+           p450_substrates[drugname]=row[1]
+           if not p450_multiplier[drugname]==1 : p450_substrates[drugname]=row[1]+"*"             
+     #add to list of substrates
     return p450_inhibitors,p450_inducers,p450_substrates,p450_multiplier
     
 def make_table(any_dictionary,col1,col2,showfreq=1):
