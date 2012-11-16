@@ -11,14 +11,48 @@ import os   # needed for file names
 
 # TO-DO: 
     # confirm numbers corresponding to frequency
-    # fix med-naming (fluoxetine <> fluoxetine hydrochloride)
+    # fix problem w generic/brand mixups
     
 # CONSTANTS would go here, if any 
 FNAME_MED_TO_CID=os.path.dirname(__file__)+"/static/label_mapping.tsv.gz" 
-FNAME_CID_TO_AE=os.path.dirname(__file__)+"/static/meddra_freq_parsed.tsv.gz"
+FNAME_CID_TO_AE=os.path.dirname(__file__)+"/static/meddra_freq_parsed_mini.tsv.gz"
 CYP450_MODIFIERS="cyp450_mods.txt"
 CYP450_SUBSTRATES="cyp450_substrates.txt"
     
+    
+"""
+this function parses frequencies from screwy file
+"""
+
+def parse_frequency(freqtemp):
+    if freqtemp=="postmarketing": freqnum=.0005
+    elif freqtemp=="rare": freqnum=.0005
+    elif freqtemp=="infrequent": freqnum=.005
+    elif freqtemp=="frequent": freqnum=.05
+    elif freqtemp=="potential": freqnum=.000     # potential should be nearly zero!
+    elif "-" in freqtemp or "to" in freqtemp: 
+        if freqtemp[-1:]=="%" : freqtemp=freqtemp[:-1]
+        freqnums=re.split('-|to',freqtemp.replace(" ",""))
+        freqnum=(float(freqnums[0])+float(freqnums[1]))/200
+    else : freqnum=float(freqtemp[:-1])/100
+    
+    return freqnum
+
+property_dict={}
+with gzip.open(FNAME_CID_TO_AE) as gzfile:
+    drug_properties=csv.reader(gzfile,delimiter='\t')
+    for row in drug_properties:
+        if (row[9]=="PT" and not(row[5]=="placebo")) and not row[0]=='' :
+                # need to reassign frequencies (exact) to categories
+                   #postmarketing, rare, infrequent, frequent, or exact #
+            freqnum=parse_frequency(row[6])
+            if freqnum>0 and row[0] in property_dict:
+                if not(row[11] in property_dict[row[0]]):
+                    property_dict[row[0]][row[11]]=freqnum
+            elif freqnum>0 :
+                property_dict[row[0]]={}
+                property_dict[row[0]][row[11]]=freqnum
+
 def check_medlist(variables): 
     """
 
@@ -74,24 +108,10 @@ def check_medlist(variables):
     else : aelist=[variables['Comparator']]    
             
 # read in AE megafile - it's gzipped...
-    property_dict={}
     list_by_ae={}
     list_by_drug={}
     
-    with gzip.open(FNAME_CID_TO_AE) as gzfile:
-        drug_properties=csv.reader(gzfile,delimiter='\t')
-        for row in drug_properties:
-            if (row[9]=="PT" and not(row[5]=="placebo")) and not row[0]=='' :
-                # need to reassign frequencies (exact) to categories
-                   #postmarketing, rare, infrequent, frequent, or exact #
-                freqnum=parse_frequency(row[6])
-                if variables['Option_1']==0 and freqnum>0: freqnum=.1   # treats any ae as freq=.1
-                if freqnum>0 and row[0] in property_dict:
-                    if not(row[11] in property_dict[row[0]]):
-                        property_dict[row[0]][row[11]]=freqnum
-                elif freqnum>0 :
-                    property_dict[row[0]]={}
-                    property_dict[row[0]][row[11]]=freqnum
+# moved this reading in of dictionary to be compiled with server.
                     
     # now remove drugs which are not in dictionary
     drug_not_in_dictionary=[]
@@ -119,17 +139,19 @@ def check_medlist(variables):
         for ae in aelist:
             if not property_dict.has_key(cid): drug_not_in_dictionary.append(backmatch_dict[cid])
             elif ae in property_dict[cid] :
+                freqnumtemp=property_dict[cid][ae]
+                if variables['Option_1']==0: freqnumtemp=.01
                 if ae in list_by_ae:
-                    list_by_ae[ae][backmatch_dict[cid]]=property_dict[cid][ae]*multiplier[backmatch_dict[cid]]
+                    list_by_ae[ae][backmatch_dict[cid]]=freqnumtemp*multiplier[backmatch_dict[cid]]
                 else :
                     list_by_ae[ae]={}
-                    list_by_ae[ae][backmatch_dict[cid]]=property_dict[cid][ae]*multiplier[backmatch_dict[cid]] 
+                    list_by_ae[ae][backmatch_dict[cid]]=freqnumtemp*multiplier[backmatch_dict[cid]] 
                     
                 if backmatch_dict[cid] in list_by_drug:
-                    list_by_drug[backmatch_dict[cid]][ae]=property_dict[cid][ae]*multiplier[backmatch_dict[cid]] 
+                    list_by_drug[backmatch_dict[cid]][ae]=freqnumtemp*multiplier[backmatch_dict[cid]] 
                 else:
                     list_by_drug[backmatch_dict[cid]]={}
-                    list_by_drug[backmatch_dict[cid]][ae]=property_dict[cid][ae]*multiplier[backmatch_dict[cid]] 
+                    list_by_drug[backmatch_dict[cid]][ae]=freqnumtemp*multiplier[backmatch_dict[cid]] 
     print("not_in_dict",drug_not_in_dictionary)
     
     #if we want to add a warning for high placebo rate, add it here.
