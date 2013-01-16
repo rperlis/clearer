@@ -1,7 +1,7 @@
 import web
 from web import form
-from clearer import calculate_burden
-#import calculate_burden
+#from clearer import calculate_burden
+import calculate_burden
 import os
 
 render = web.template.render(os.path.dirname(os.path.abspath(__file__)) + '/templates/', base='layout')
@@ -12,7 +12,7 @@ render = web.template.render(os.path.dirname(os.path.abspath(__file__)) + '/temp
 #
 urls = (
     '/', 'index', 
-
+    '/result', 'result',
     '/about', 'about', 
     '/contact', 'contact', 
     '/error', 'error',
@@ -50,8 +50,11 @@ class index:
         # 2) render the page, passing the form object to the template
         # (it infers the basicform.html from the name of the basicform method) 
         form = myform()
-        return render.basicform(form)
-
+        return render.basicform(form)        
+        #if not form.validates():
+        #   return render.basicform(form)
+        #else: render.results(form)
+        
     def POST(self): 
 
         # post requests are more complicated, they have 2 possible paths...
@@ -64,11 +67,7 @@ class index:
         # the form.render() method includes error text AND fills out previous results
         if not form.validates(): 
             return render.basicform(form)
-        
-        # if form IS valid, let's render a new template that displays the reuslt
-        # remember that in the demo they only returned a string
         else:
-        
             variables = {
             
                 'Index_drug': str(form['Index_drug'].value).upper(),
@@ -78,13 +77,39 @@ class index:
                 'Option_2': (1 if form['Option_2'].checked else 0),
             
             }
-            
-            
             result=calculate_burden.check_medlist(variables)
+            return render.results(result['matched_drugs'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'],result['mods_p450'],result['subs_p450'])
 
-            if result['matched_drugs']==[] : return render.error(variables['Index_drug'],variables['Comparator'])
-            else: return render.results(result['matched_drugs'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'],result['mods_p450'],result['subs_p450'])
+            
+class result:
+    def GET(self): 
 
+        # post requests are more complicated, they have 2 possible paths...
+        # either the form is valid or not, reember that the view is different
+        form = myform() 
+
+        # if it's not valid, do the same as the get request, just return the form
+        # however, in this case, the data user submitted is *still bound to the form*, so 
+        # results will pre-populate 
+        # the form.render() method includes error text AND fills out previous results
+        if not form.validates(): 
+            return render.basicform(form)
+        else:
+            variables = {
+            
+                'Index_drug': str(form['Index_drug'].value).upper(),
+                'Comparator': str(form['Comparator'].value),
+                'Druglist': str(form['Druglist'].value).upper(),           
+                'Option_1': (1 if form['Option_1'].checked else 0),
+                'Option_2': (1 if form['Option_2'].checked else 0),
+            
+            }
+            result=calculate_burden.check_medlist(variables)
+            return render.results(result['matched_drugs'],result['list_by_drug'],result['list_by_ae'],result['annotation_by_drug'],result['ae_score'],result['drug_score'],result['ae_total'],result['mods_p450'],result['subs_p450'])
+
+            
+        
+  
 class error:
     def GET(self):
         return render.error(variables['Index_drug'],variables['Comparator'])
